@@ -109,7 +109,6 @@ toDo.Go.on Events.Click, ->
 			toDo.RFill.on Events.AnimationEnd, -> 
 				toDo.Radial.destroy()
 				toDo.Header1.visible = true
-				location.reload(true)
 				
 				
 		toDo.Header1.opacity = 1			
