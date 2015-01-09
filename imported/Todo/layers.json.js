@@ -261,18 +261,18 @@ window.__imported__["Todo/layers.json.js"] = [
             "image" : {
               "path" : "images\/RFill-66A9C3C1-D1F3-47BC-97FD-884BCD47EF69.png",
               "frame" : {
-                "y" : 163,
-                "x" : 711,
-                "width" : 595,
-                "height" : 595
+                "y" : 147,
+                "x" : 698,
+                "width" : 625,
+                "height" : 625
               }
             },
             "imageType" : "png",
             "layerFrame" : {
-              "y" : 163,
-              "x" : 711,
-              "width" : 595,
-              "height" : 595
+              "y" : 147,
+              "x" : 698,
+              "width" : 625,
+              "height" : 625
             },
             "name" : "RFill"
           }
