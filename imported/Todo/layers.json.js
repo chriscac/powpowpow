@@ -243,10 +243,10 @@ window.__imported__["Todo/layers.json.js"] = [
       },
       {
         "maskFrame" : {
-          "y" : 420,
-          "x" : 780,
-          "width" : 459,
-          "height" : 82
+          "y" : 419,
+          "x" : 779,
+          "width" : 460,
+          "height" : 83
         },
         "id" : "17048B57-9C7D-48D2-8985-70335184327E",
         "visible" : true,
@@ -280,18 +280,18 @@ window.__imported__["Todo/layers.json.js"] = [
         "image" : {
           "path" : "images\/Radial-17048B57-9C7D-48D2-8985-70335184327E.png",
           "frame" : {
-            "y" : 420,
-            "x" : 780,
+            "y" : 416,
+            "x" : 779,
             "width" : 460,
-            "height" : 82
+            "height" : 86
           }
         },
         "imageType" : "png",
         "layerFrame" : {
-          "y" : 420,
-          "x" : 780,
+          "y" : 416,
+          "x" : 779,
           "width" : 460,
-          "height" : 82
+          "height" : 86
         },
         "name" : "Radial"
       },
