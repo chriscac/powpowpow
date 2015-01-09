@@ -104,7 +104,7 @@ toDo.Go.on Events.Click, ->
 		toDo.RFill.animate
 			properties:
 				scale: 1
-			time: 0.3
+			time: 0.1
 			
 			toDo.RFill.on Events.AnimationEnd, -> 
 				toDo.Radial.destroy()
