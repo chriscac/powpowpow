@@ -1,10 +1,13 @@
+
+
+
 document.body.style.cursor = "auto"
 Framer.Device.contentScale = 1
 
 
 
 background = new BackgroundLayer
-	backgroundColor:"RGBA(30, 31, 37, 0.1)"
+	backgroundColor:"RGBA(246, 248, 249, 1)"
 
 
 
@@ -12,10 +15,15 @@ background = new BackgroundLayer
 # This imports all the layers for "Todo" into todoLayers1
 toDo = Framer.Importer.load "imported/Todo"
 
-toDo.container.center()
+
+
 toDo.container.style["border"] = "1px solid RGBA(212, 212, 212, .5)"
 toDo.container.borderRadius = 4
 toDo.container.width = 462
+
+toDo.App.centerX()
+
+
 
 
 toDo.Arrow.opacity = 0
@@ -51,11 +59,16 @@ toDo.Go.visible = false
 toDo.Footer2.opacity = 0
 
 
+
 toDo.Go.z = 1300
 toDo.Go.x = toDo.container.x + 385
 toDo.Go.y = toDo.container.y + 60
 toDo.Radial.visible = false
 toDo.RFill.scale = 0
+
+BankY = toDo.Bank.y
+CashY = toDo.Cashflow.y
+
 
 
 # -----------------------------------------------------------------------------
@@ -98,7 +111,6 @@ toDo.Go.on Events.Click, ->
 		toDo.Header2.opacity = 0
 		toDo.Radial.visible = true
 
-		
 		toDo.Go.destroy()
 		
 		toDo.RFill.animate
@@ -122,6 +134,10 @@ toDo.Go.on Events.Click, ->
 				y: 82
 			curve: "spring(800,60,10)"
 			time: 0.2
+			
+			toDo.Rows.on Events.AnimationEnd, -> 
+				window.location.reload(true)
+				
 	
 	toDo.Footer.animate
 		properties:
@@ -143,6 +159,18 @@ toDo.Go.on Events.Click, ->
 		properties:
 			height: 490
 		curve: "spring(800,60,10)"
+		
+	toDo.Bank.animate
+		properties:
+			y:BankY
+		curve: "spring(900,60,10)"
+		
+	toDo.Cashflow.animate
+		properties:
+			y:CashY
+		curve: "spring(900,60,10)"
+
+
 		
 
 
@@ -213,7 +241,7 @@ toDo.Cross.on Events.Click, ->
 	
 	toDo.container.animate
 		properties:
-			height: 160
+			height: 152
 			backgroundColor: "Red"
 		curve: "spring(800,60,10)"
 		
@@ -236,6 +264,16 @@ toDo.Cross.on Events.Click, ->
 	toDo.Header1.animate
 		properties:
 			opacity:0
+		curve: "spring(900,60,10)"
+		
+	toDo.Bank.animate
+		properties:
+			y:BankY - 340
+		curve: "spring(900,60,10)"
+		
+	toDo.Cashflow.animate
+		properties:
+			y:CashY - 340
 		curve: "spring(900,60,10)"
 
 
@@ -462,5 +500,15 @@ toDo.TickDone3.on Events.Click, ->
 		
 
 
+toDo.Text.on Events.Click, ->	
+	window.location.assign("http://vimeo.com/51563083")
+	print "clicked"
 
+toDo.Text2.on Events.Click, ->	
+	window.location.assign("https://go.xero.com/Bank/BankAccounts.aspx")
+	print "clicked"
+
+toDo.Text3.on Events.Click, ->	
+	window.location.assign("https://go.xero.com/AccountsReceivable/Edit.aspx")
+	print "clicked"
 

@@ -1,5 +1,4 @@
-window.__imported__ = window.__imported__ || {};
-window.__imported__["Todo/layers.json.js"] = [
+[
   {
     "maskFrame" : null,
     "id" : "67D42B27-7F39-4706-BE82-9F7FBDFCCFFB",
@@ -1971,7 +1970,7 @@ window.__imported__["Todo/layers.json.js"] = [
                   {
                     "maskFrame" : null,
                     "id" : "B3391915-2EF1-49C7-98E7-CC0F1A63D31B",
-                    "visible" : true,
+                    "visible" : false,
                     "children" : [
                       {
                         "maskFrame" : null,
@@ -1983,18 +1982,18 @@ window.__imported__["Todo/layers.json.js"] = [
                         "image" : {
                           "path" : "images\/Graphic-B67F5700-2621-4F11-B368-16E76C2AB388.png",
                           "frame" : {
-                            "y" : 263,
-                            "x" : 1068,
-                            "width" : 85,
-                            "height" : 105
+                            "y" : 163,
+                            "x" : 968,
+                            "width" : 285,
+                            "height" : 305
                           }
                         },
                         "imageType" : "png",
                         "layerFrame" : {
-                          "y" : 263,
-                          "x" : 1068,
-                          "width" : 85,
-                          "height" : 105
+                          "y" : 163,
+                          "x" : 968,
+                          "width" : 285,
+                          "height" : 305
                         },
                         "name" : "Graphic"
                       }
@@ -2002,18 +2001,18 @@ window.__imported__["Todo/layers.json.js"] = [
                     "image" : {
                       "path" : "images\/Group-B3391915-2EF1-49C7-98E7-CC0F1A63D31B.png",
                       "frame" : {
-                        "y" : 260,
-                        "x" : 749,
-                        "width" : 404,
-                        "height" : 111
+                        "y" : 158,
+                        "x" : 649,
+                        "width" : 604,
+                        "height" : 313
                       }
                     },
                     "imageType" : "png",
                     "layerFrame" : {
-                      "y" : 260,
-                      "x" : 749,
-                      "width" : 404,
-                      "height" : 111
+                      "y" : 158,
+                      "x" : 649,
+                      "width" : 604,
+                      "height" : 313
                     },
                     "name" : "Group"
                   }
@@ -2021,18 +2020,18 @@ window.__imported__["Todo/layers.json.js"] = [
                 "image" : {
                   "path" : "images\/Button-7AC94538-2786-493B-A7B9-EF2E1568A7D9.png",
                   "frame" : {
-                    "y" : 260,
-                    "x" : 749,
-                    "width" : 404,
-                    "height" : 111
+                    "y" : 158,
+                    "x" : 649,
+                    "width" : 604,
+                    "height" : 313
                   }
                 },
                 "imageType" : "png",
                 "layerFrame" : {
-                  "y" : 260,
-                  "x" : 749,
-                  "width" : 404,
-                  "height" : 111
+                  "y" : 158,
+                  "x" : 649,
+                  "width" : 604,
+                  "height" : 313
                 },
                 "name" : "Button"
               }
