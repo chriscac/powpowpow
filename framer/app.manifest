@@ -1,12 +1,13 @@
 CACHE MANIFEST
-# 1421035843.352687
+# 1422490675.969535
 CACHE:
 /_server/server.js
 ../.DS_Store
-../.temp (Chris Cacioppe's conflicted copy 2015-01-09).html
+../.temp (Chris Cacioppe's conflicted copy 2015-01-27).html
 ../.temp.html
 ../app.coffee
 ../framer/.bowerrc
+../framer/app (Chris Cacioppe's conflicted copy 2015-01-27).manifest
 ../framer/app.manifest
 ../framer/backup.coffee
 ../framer/coffee-script.js
@@ -34,159 +35,90 @@ CACHE:
 ../framer/version
 ../images/framer-icon.png
 ../imported/.DS_Store
-../imported/setupweb_NearTermDash_ToDoWidget/images/Arrow-DDD04FBC-44CF-417D-8337-84448D110776.png
-../imported/setupweb_NearTermDash_ToDoWidget/images/Arrow2-8BB46916-5340-42C7-B001-635279A5B06F.png
-../imported/setupweb_NearTermDash_ToDoWidget/images/Arrow3-EA58AA15-EF82-456C-9BFB-F1325FB1CCA6.png
-../imported/setupweb_NearTermDash_ToDoWidget/images/Arrow4-42089C42-4F79-4BE5-A062-C00C459440B8.png
-../imported/setupweb_NearTermDash_ToDoWidget/images/Arrow5-7AED0DB5-F51C-4A5F-9A64-D8E0247CD289.png
-../imported/setupweb_NearTermDash_ToDoWidget/images/Background-D730EE97-965A-49EB-8EF2-C87E71B98568.png
-../imported/setupweb_NearTermDash_ToDoWidget/images/Background1-EA058AF1-0AC9-4B73-9A2E-974E719012FD.png
-../imported/setupweb_NearTermDash_ToDoWidget/images/Bank-EE218351-8B1B-4121-8D04-1798BE16A463.png
-../imported/setupweb_NearTermDash_ToDoWidget/images/Banner-3A519020-B7C5-446C-BBF7-81F8C330DC79.png
-../imported/setupweb_NearTermDash_ToDoWidget/images/BG-BB37741C-A1AD-491E-892C-C4862AF21A50.png
-../imported/setupweb_NearTermDash_ToDoWidget/images/BG-C37CBC29-5A02-49D5-96CC-B0EC0705393B.png
-../imported/setupweb_NearTermDash_ToDoWidget/images/BG-DB067599-E45E-4FED-A357-53A74CB6CC0C.png
-../imported/setupweb_NearTermDash_ToDoWidget/images/BG-F31F3F82-A703-442C-BA30-52530758288E.png
-../imported/setupweb_NearTermDash_ToDoWidget/images/BG-F5FBA945-E3A5-4AFD-BE41-8C91C80A5941.png
-../imported/setupweb_NearTermDash_ToDoWidget/images/Bill-B905DE43-AF97-4D24-B3FB-0EAF893E1A42.png
-../imported/setupweb_NearTermDash_ToDoWidget/images/Cashflow-A6329917-43BA-4BF7-847B-BDE431D26B3C.png
-../imported/setupweb_NearTermDash_ToDoWidget/images/container-072388A5-36C4-4E74-A5D1-A79D2B399203.png
-../imported/setupweb_NearTermDash_ToDoWidget/images/Cross-53D32F17-FEC3-4B4C-AC14-FF47E3FBADD2.png
-../imported/setupweb_NearTermDash_ToDoWidget/images/Dash-281C044F-E5A9-4A4A-B03C-D7B19393D885.png
-../imported/setupweb_NearTermDash_ToDoWidget/images/Expense-DFF75CF2-81A6-47AE-995E-E84686771EC2.png
-../imported/setupweb_NearTermDash_ToDoWidget/images/Footer2-CDE3EF8B-9AC8-4C76-8B67-716A18ACDDD6.png
-../imported/setupweb_NearTermDash_ToDoWidget/images/Go-60F68F93-F114-44C0-BD64-0545AF73881E.png
-../imported/setupweb_NearTermDash_ToDoWidget/images/Header-3118B34C-0098-4B00-A240-34D212F7D86A.png
-../imported/setupweb_NearTermDash_ToDoWidget/images/Header2-E6D51C16-2B19-41EE-B361-D3FF6F4935B9.png
-../imported/setupweb_NearTermDash_ToDoWidget/images/HeadText1-393894FD-FEDF-4964-99B8-8DCAD2117357.png
-../imported/setupweb_NearTermDash_ToDoWidget/images/icon-14CB3B53-7F6F-424C-8297-6BE525470C7F.png
-../imported/setupweb_NearTermDash_ToDoWidget/images/Invoice-C752C976-042B-4540-A16E-D5B43990962F.png
-../imported/setupweb_NearTermDash_ToDoWidget/images/Progress-7BAB7AD4-0AB6-4021-A393-206E5B7B6259.png
-../imported/setupweb_NearTermDash_ToDoWidget/images/Progress_2-BBE99C83-8A77-4E48-B496-6AA7F6F9BA5C.png
-../imported/setupweb_NearTermDash_ToDoWidget/images/Radial-17048B57-9C7D-48D2-8985-70335184327E.png
-../imported/setupweb_NearTermDash_ToDoWidget/images/RFill-66A9C3C1-D1F3-47BC-97FD-884BCD47EF69.png
-../imported/setupweb_NearTermDash_ToDoWidget/images/Text-5C264813-9492-4DE3-8B55-58BFE799CEA7.png
-../imported/setupweb_NearTermDash_ToDoWidget/images/Text2-D8C03D17-70F4-4BD4-9E7D-05531670C401.png
-../imported/setupweb_NearTermDash_ToDoWidget/images/Text2-E3648749-52D9-4B19-B1D5-4E5853BFD0B6.png
-../imported/setupweb_NearTermDash_ToDoWidget/images/Text3-2ED88244-E264-406E-A958-A7F9535EA130.png
-../imported/setupweb_NearTermDash_ToDoWidget/images/Text4-6424746A-000B-4E01-83B3-382FE380C159.png
-../imported/setupweb_NearTermDash_ToDoWidget/images/Text5-B8F65FB7-0D19-445F-AE50-991E29108640.png
-../imported/setupweb_NearTermDash_ToDoWidget/images/TickDefault-DB3860E0-517E-420D-948C-85E3836D26CF.png
-../imported/setupweb_NearTermDash_ToDoWidget/images/TickDefault2-C88E2CC5-1CC5-4BFE-87E5-4CF14B7D6A45.png
-../imported/setupweb_NearTermDash_ToDoWidget/images/TickDefault3-E8986F43-71F1-4664-94DE-D8B9957C0002.png
-../imported/setupweb_NearTermDash_ToDoWidget/images/TickDefault4-C6BD019D-7D1B-4449-A523-29750239BDB9.png
-../imported/setupweb_NearTermDash_ToDoWidget/images/TickDefault5-8A9E80C4-A306-413F-AF28-4980240A323C.png
-../imported/setupweb_NearTermDash_ToDoWidget/images/TickDone-2A1E07B0-1677-40DD-9A50-BCDF290F33B8.png
-../imported/setupweb_NearTermDash_ToDoWidget/images/TickDone2-A580BD11-CEC1-4628-88DC-7A785E236870.png
-../imported/setupweb_NearTermDash_ToDoWidget/images/TickDone3-0057A170-C13B-47F8-BBDB-6EE423C63975.png
-../imported/setupweb_NearTermDash_ToDoWidget/images/TickDone4-850EE638-4CE7-40C2-9FEE-9B5E46464E91.png
-../imported/setupweb_NearTermDash_ToDoWidget/images/TickDone5-3D049F51-F020-4CE4-8A92-7ACCBB210BF6.png
-../imported/setupweb_NearTermDash_ToDoWidget/images/Time-1572F25B-4BAC-4E89-9333-A16B76FEB16A.png
-../imported/setupweb_NearTermDash_ToDoWidget/images/Title_Bar-ABE1A40B-69FF-4C80-A025-78B2FDA41C32.png
-../imported/setupweb_NearTermDash_ToDoWidget/layers.json
-../imported/setupweb_NearTermDash_ToDoWidget/layers.json.js
-../imported/Todo/images/Arrow-DDD04FBC-44CF-417D-8337-84448D110776.png
-../imported/Todo/images/Arrow2-8BB46916-5340-42C7-B001-635279A5B06F.png
-../imported/Todo/images/Arrow3-EA58AA15-EF82-456C-9BFB-F1325FB1CCA6.png
-../imported/Todo/images/Arrow4-42089C42-4F79-4BE5-A062-C00C459440B8.png
-../imported/Todo/images/Arrow5-7AED0DB5-F51C-4A5F-9A64-D8E0247CD289.png
-../imported/Todo/images/Background-D730EE97-965A-49EB-8EF2-C87E71B98568.png
-../imported/Todo/images/Background1-EA058AF1-0AC9-4B73-9A2E-974E719012FD.png
-../imported/Todo/images/Bank-EE218351-8B1B-4121-8D04-1798BE16A463.png
-../imported/Todo/images/Banner-3A519020-B7C5-446C-BBF7-81F8C330DC79.png
-../imported/Todo/images/BG-BB37741C-A1AD-491E-892C-C4862AF21A50.png
-../imported/Todo/images/BG-C37CBC29-5A02-49D5-96CC-B0EC0705393B.png
-../imported/Todo/images/BG-DB067599-E45E-4FED-A357-53A74CB6CC0C.png
-../imported/Todo/images/BG-F31F3F82-A703-442C-BA30-52530758288E.png
-../imported/Todo/images/BG-F5FBA945-E3A5-4AFD-BE41-8C91C80A5941.png
-../imported/Todo/images/Bill-B905DE43-AF97-4D24-B3FB-0EAF893E1A42.png
-../imported/Todo/images/Cashflow-A6329917-43BA-4BF7-847B-BDE431D26B3C.png
-../imported/Todo/images/container-072388A5-36C4-4E74-A5D1-A79D2B399203.png
-../imported/Todo/images/Cross-53D32F17-FEC3-4B4C-AC14-FF47E3FBADD2.png
-../imported/Todo/images/Dash-281C044F-E5A9-4A4A-B03C-D7B19393D885.png
-../imported/Todo/images/Expense-DFF75CF2-81A6-47AE-995E-E84686771EC2.png
-../imported/Todo/images/Footer2-CDE3EF8B-9AC8-4C76-8B67-716A18ACDDD6.png
-../imported/Todo/images/Go-60F68F93-F114-44C0-BD64-0545AF73881E.png
-../imported/Todo/images/Header-3118B34C-0098-4B00-A240-34D212F7D86A.png
-../imported/Todo/images/Header2-E6D51C16-2B19-41EE-B361-D3FF6F4935B9.png
-../imported/Todo/images/HeadText1-393894FD-FEDF-4964-99B8-8DCAD2117357.png
-../imported/Todo/images/icon-14CB3B53-7F6F-424C-8297-6BE525470C7F.png
-../imported/Todo/images/Invoice-C752C976-042B-4540-A16E-D5B43990962F.png
-../imported/Todo/images/Progress-7BAB7AD4-0AB6-4021-A393-206E5B7B6259.png
-../imported/Todo/images/Progress_2-BBE99C83-8A77-4E48-B496-6AA7F6F9BA5C.png
-../imported/Todo/images/Radial-17048B57-9C7D-48D2-8985-70335184327E.png
-../imported/Todo/images/RFill-66A9C3C1-D1F3-47BC-97FD-884BCD47EF69.png
-../imported/Todo/images/Text-5C264813-9492-4DE3-8B55-58BFE799CEA7.png
-../imported/Todo/images/Text2-D8C03D17-70F4-4BD4-9E7D-05531670C401.png
-../imported/Todo/images/Text2-E3648749-52D9-4B19-B1D5-4E5853BFD0B6.png
-../imported/Todo/images/Text3-2ED88244-E264-406E-A958-A7F9535EA130.png
-../imported/Todo/images/Text4-6424746A-000B-4E01-83B3-382FE380C159.png
-../imported/Todo/images/Text5-B8F65FB7-0D19-445F-AE50-991E29108640.png
-../imported/Todo/images/TickDefault-DB3860E0-517E-420D-948C-85E3836D26CF.png
-../imported/Todo/images/TickDefault2-C88E2CC5-1CC5-4BFE-87E5-4CF14B7D6A45.png
-../imported/Todo/images/TickDefault3-E8986F43-71F1-4664-94DE-D8B9957C0002.png
-../imported/Todo/images/TickDefault4-C6BD019D-7D1B-4449-A523-29750239BDB9.png
-../imported/Todo/images/TickDefault5-8A9E80C4-A306-413F-AF28-4980240A323C.png
-../imported/Todo/images/TickDone-2A1E07B0-1677-40DD-9A50-BCDF290F33B8.png
-../imported/Todo/images/TickDone2-A580BD11-CEC1-4628-88DC-7A785E236870.png
-../imported/Todo/images/TickDone3-0057A170-C13B-47F8-BBDB-6EE423C63975.png
-../imported/Todo/images/TickDone4-850EE638-4CE7-40C2-9FEE-9B5E46464E91.png
-../imported/Todo/images/TickDone5-3D049F51-F020-4CE4-8A92-7ACCBB210BF6.png
-../imported/Todo/images/Time-1572F25B-4BAC-4E89-9333-A16B76FEB16A.png
-../imported/Todo/images/Title_Bar-ABE1A40B-69FF-4C80-A025-78B2FDA41C32.png
-../imported/Todo/layers.json
-../imported/Todo/layers.json.js
-../imported/Todo copy/images/App-F57692B3-99C4-45D4-9076-DB91240F14EE.png
-../imported/Todo copy/images/Arrow-DDD04FBC-44CF-417D-8337-84448D110776.png
-../imported/Todo copy/images/Arrow2-8BB46916-5340-42C7-B001-635279A5B06F.png
-../imported/Todo copy/images/Arrow3-EA58AA15-EF82-456C-9BFB-F1325FB1CCA6.png
-../imported/Todo copy/images/Arrow4-42089C42-4F79-4BE5-A062-C00C459440B8.png
-../imported/Todo copy/images/Arrow5-7AED0DB5-F51C-4A5F-9A64-D8E0247CD289.png
-../imported/Todo copy/images/Background-D730EE97-965A-49EB-8EF2-C87E71B98568.png
-../imported/Todo copy/images/Background1-EA058AF1-0AC9-4B73-9A2E-974E719012FD.png
-../imported/Todo copy/images/Bank-EE218351-8B1B-4121-8D04-1798BE16A463.png
-../imported/Todo copy/images/Banner-3A519020-B7C5-446C-BBF7-81F8C330DC79.png
-../imported/Todo copy/images/BG-BB37741C-A1AD-491E-892C-C4862AF21A50.png
-../imported/Todo copy/images/BG-C37CBC29-5A02-49D5-96CC-B0EC0705393B.png
-../imported/Todo copy/images/BG-DB067599-E45E-4FED-A357-53A74CB6CC0C.png
-../imported/Todo copy/images/BG-F31F3F82-A703-442C-BA30-52530758288E.png
-../imported/Todo copy/images/BG-F5FBA945-E3A5-4AFD-BE41-8C91C80A5941.png
-../imported/Todo copy/images/Bill-B905DE43-AF97-4D24-B3FB-0EAF893E1A42.png
-../imported/Todo copy/images/Cashflow_2-A6329917-43BA-4BF7-847B-BDE431D26B3C.png
-../imported/Todo copy/images/container-072388A5-36C4-4E74-A5D1-A79D2B399203.png
-../imported/Todo copy/images/Cross-53D32F17-FEC3-4B4C-AC14-FF47E3FBADD2.png
-../imported/Todo copy/images/Expense-DFF75CF2-81A6-47AE-995E-E84686771EC2.png
-../imported/Todo copy/images/Footer2-CDE3EF8B-9AC8-4C76-8B67-716A18ACDDD6.png
-../imported/Todo copy/images/Go-60F68F93-F114-44C0-BD64-0545AF73881E.png
-../imported/Todo copy/images/Header-3118B34C-0098-4B00-A240-34D212F7D86A.png
-../imported/Todo copy/images/Header2-E6D51C16-2B19-41EE-B361-D3FF6F4935B9.png
-../imported/Todo copy/images/HeadText1-393894FD-FEDF-4964-99B8-8DCAD2117357.png
-../imported/Todo copy/images/icon-14CB3B53-7F6F-424C-8297-6BE525470C7F.png
-../imported/Todo copy/images/Invoice-C752C976-042B-4540-A16E-D5B43990962F.png
-../imported/Todo copy/images/Page_Title_Getting_Started_2-ABE1A40B-69FF-4C80-A025-78B2FDA41C32.png
-../imported/Todo copy/images/Progress-7BAB7AD4-0AB6-4021-A393-206E5B7B6259.png
-../imported/Todo copy/images/Progress_2-BBE99C83-8A77-4E48-B496-6AA7F6F9BA5C.png
-../imported/Todo copy/images/Radial-17048B57-9C7D-48D2-8985-70335184327E.png
-../imported/Todo copy/images/RFill-66A9C3C1-D1F3-47BC-97FD-884BCD47EF69.png
-../imported/Todo copy/images/Text-5C264813-9492-4DE3-8B55-58BFE799CEA7.png
-../imported/Todo copy/images/Text2-D8C03D17-70F4-4BD4-9E7D-05531670C401.png
-../imported/Todo copy/images/Text2-E3648749-52D9-4B19-B1D5-4E5853BFD0B6.png
-../imported/Todo copy/images/Text3-2ED88244-E264-406E-A958-A7F9535EA130.png
-../imported/Todo copy/images/Text4-6424746A-000B-4E01-83B3-382FE380C159.png
-../imported/Todo copy/images/Text5-B8F65FB7-0D19-445F-AE50-991E29108640.png
-../imported/Todo copy/images/TickDefault-DB3860E0-517E-420D-948C-85E3836D26CF.png
-../imported/Todo copy/images/TickDefault2-C88E2CC5-1CC5-4BFE-87E5-4CF14B7D6A45.png
-../imported/Todo copy/images/TickDefault3-E8986F43-71F1-4664-94DE-D8B9957C0002.png
-../imported/Todo copy/images/TickDefault4-C6BD019D-7D1B-4449-A523-29750239BDB9.png
-../imported/Todo copy/images/TickDefault5-8A9E80C4-A306-413F-AF28-4980240A323C.png
-../imported/Todo copy/images/TickDone-2A1E07B0-1677-40DD-9A50-BCDF290F33B8.png
-../imported/Todo copy/images/TickDone2-A580BD11-CEC1-4628-88DC-7A785E236870.png
-../imported/Todo copy/images/TickDone3-0057A170-C13B-47F8-BBDB-6EE423C63975.png
-../imported/Todo copy/images/TickDone4-850EE638-4CE7-40C2-9FEE-9B5E46464E91.png
-../imported/Todo copy/images/TickDone5-3D049F51-F020-4CE4-8A92-7ACCBB210BF6.png
-../imported/Todo copy/images/Time-1572F25B-4BAC-4E89-9333-A16B76FEB16A.png
-../imported/Todo copy/layers.json
-../imported/Todo copy/layers.json.js
+../imported/setupweb_JITLearn/images/Background-5426DFBE-707F-4F4C-9121-01BDB5C78263.png
+../imported/setupweb_JITLearn/images/Background-597A8049-874C-4F24-B0EA-8A390C072051.png
+../imported/setupweb_JITLearn/images/Background-BABAF91B-7EAD-4798-AF3B-A7752C313DF9.png
+../imported/setupweb_JITLearn/images/Background-C7919404-AE9A-4720-8A72-16656846CF8B.png
+../imported/setupweb_JITLearn/images/Bank-5F8A202F-5E33-474E-8227-55A44D68421E.png
+../imported/setupweb_JITLearn/images/Banner-B6408BDD-A950-4976-8C0D-14DE2A5E5BB8.png
+../imported/setupweb_JITLearn/images/Bill-1BCD09EC-AA4F-4F10-AE5C-3020C93C56A0.png
+../imported/setupweb_JITLearn/images/BizName-FC455C7C-CEA1-40AE-870E-96C95E9EBC4C.png
+../imported/setupweb_JITLearn/images/BizType-1046D3CE-A7D7-48FC-96D5-544A0F470867.png
+../imported/setupweb_JITLearn/images/Cashflow-307B3C2B-ADFB-4106-AF08-2DF2B7E7360F.png
+../imported/setupweb_JITLearn/images/Checkmark1-52B8C3D9-78A5-4591-8244-43A086B5B6A5.png
+../imported/setupweb_JITLearn/images/ContButton-9468302F-2A6B-4695-92B2-7A4180CA589F.png
+../imported/setupweb_JITLearn/images/ContButtonLoad-E05550B2-D0E3-4DC7-8AAB-4FF20E138C4D.png
+../imported/setupweb_JITLearn/images/Content-22483209-0D14-4D82-8E4A-F45EF9BEFB32.png
+../imported/setupweb_JITLearn/images/Content-23470B9B-12BB-47AE-91F4-10D468246BD1.png
+../imported/setupweb_JITLearn/images/Content-38D1550A-DDB5-4A08-8264-EDDAA0761AB5.png
+../imported/setupweb_JITLearn/images/Content-AD8117BA-0BEC-4EAD-921C-8CFDC06B2888.png
+../imported/setupweb_JITLearn/images/DashBG-2143D650-D09C-4293-8887-93DE5E258F48.png
+../imported/setupweb_JITLearn/images/Expense-BEE4901A-B0BE-419A-B160-9D95AADACB9D.png
+../imported/setupweb_JITLearn/images/FormBG-7482C5A3-2C3D-49F9-B1C3-098A99DC2F06.png
+../imported/setupweb_JITLearn/images/Group-DC3B7725-DC2E-40EE-9CCF-B906B1BA117F.png
+../imported/setupweb_JITLearn/images/Guide1Content-D9BE2924-4160-44AC-B7E0-EC96224C82DA.png
+../imported/setupweb_JITLearn/images/Guide1Cross-3743EB83-AC94-44BC-A87C-D2BBD3091993.png
+../imported/setupweb_JITLearn/images/Guide1Go-2D36E1D1-4891-4780-AF0A-5F83CB45CAAA.png
+../imported/setupweb_JITLearn/images/Guide1Screen-765106FD-3DEA-4580-9D04-E9D3A17901C5.png
+../imported/setupweb_JITLearn/images/Guide1Tip1BG-935F8047-E5B4-49B5-9BE2-198FF437FBEA.png
+../imported/setupweb_JITLearn/images/Guide1Tip1Go-FCBED6A7-4B0D-4762-8FB9-A7137BFA508C.png
+../imported/setupweb_JITLearn/images/Guide1Tip2BG-34D98571-9E32-4B7E-9934-7F8D60A56512.png
+../imported/setupweb_JITLearn/images/Guide1Tip2Go-329521BD-0FD9-4F2E-8749-41EAAADFB0D6.png
+../imported/setupweb_JITLearn/images/Guide1Tip3BG-FBB8CEC7-E142-4C6E-9041-4B939BAD1621.png
+../imported/setupweb_JITLearn/images/Guide1Tip3Go-D194C242-3E97-480F-B0F0-2BB7D68016C1.png
+../imported/setupweb_JITLearn/images/Guide2Content-756C018D-1CB3-4912-B644-B3B4479E50E3.png
+../imported/setupweb_JITLearn/images/Guide2Go-9D2F7F7E-6EB0-4B4D-BF78-B86350F0FD66.png
+../imported/setupweb_JITLearn/images/GuideBG-9F2B6595-81BB-4CDA-AF37-A418D7921F0A.png
+../imported/setupweb_JITLearn/images/GuideBG1-17356086-EFED-4CEE-B08F-B6D9B2A1E532.png
+../imported/setupweb_JITLearn/images/GuideHeader1Cross-745732F9-7C7C-42BF-A3DF-BD72F94253D7.png
+../imported/setupweb_JITLearn/images/GuideHeader1Cross-FFCFCD31-A53D-4166-90F3-EBF936499385.png
+../imported/setupweb_JITLearn/images/GuideHeader2Cross-E8CFBD13-4C3F-40DB-BDF8-F5CEB8B957B3.png
+../imported/setupweb_JITLearn/images/Header-CBAF1A8A-E313-417F-AECB-AC737B918DD2.png
+../imported/setupweb_JITLearn/images/Heading-1B8CE3A7-B11D-4C2E-9019-185081A43816.png
+../imported/setupweb_JITLearn/images/Invoice-BF60F029-6A57-45BC-9D6D-9E819C854872.png
+../imported/setupweb_JITLearn/images/Location-BCA99C6A-4555-42B2-BF47-1469D03C65D4.png
+../imported/setupweb_JITLearn/images/Logo_2-26817723-1E88-4CD8-8709-F4B902AE6DC0.png
+../imported/setupweb_JITLearn/images/Page_Title-FF778172-598C-4950-A902-F05B354B8B90.png
+../imported/setupweb_JITLearn/images/Password-C612D756-EBE7-402B-BCB0-1AD6CB4F18CF.png
+../imported/setupweb_JITLearn/images/Progress-960DE53D-F415-42AF-9210-12685FFD0BA9.png
+../imported/setupweb_JITLearn/images/Progress1-B8E07DE7-D1D3-491B-8EF1-401193CD7EDD.png
+../imported/setupweb_JITLearn/images/Progress2-82A9E5FF-743F-4628-89DA-FC02E3871978.png
+../imported/setupweb_JITLearn/images/Progress3-82D6FA51-54B4-40E3-B2E5-C3D8C50E80EB.png
+../imported/setupweb_JITLearn/images/Progress_2-7E04377C-35D9-4141-99B7-6AF0DB986EB4.png
+../imported/setupweb_JITLearn/images/ProgressBG-146D9380-3BB4-4724-92C0-41455E1C5BF4.png
+../imported/setupweb_JITLearn/images/ProgressBG2-755A19C7-5A5E-4AE4-8245-CD91C101B4D7.png
+../imported/setupweb_JITLearn/images/Sparks1-F7D25D9B-2041-444B-9BCD-45A7ABF914AE.png
+../imported/setupweb_JITLearn/images/Sparks2-E422EAAB-A74D-49AD-AF87-71A2D5A2DE0B.png
+../imported/setupweb_JITLearn/images/Spinner-30654C36-7A02-4ABE-B633-D0F65ED3F1E9.png
+../imported/setupweb_JITLearn/images/Step-840D8569-0A72-495E-8BCF-0742682C052B.png
+../imported/setupweb_JITLearn/images/Step-BF3B83D9-8D89-4E6A-B33A-4144075540E6.png
+../imported/setupweb_JITLearn/images/Step-EAA951F2-85DB-4488-8682-A184B338E95E.png
+../imported/setupweb_JITLearn/images/Step_2-08B7E633-9674-4475-85C6-189D93686299.png
+../imported/setupweb_JITLearn/images/Step_2-6CEE4F83-513B-45CA-9438-9FDB85789BA3.png
+../imported/setupweb_JITLearn/images/Step_2-ED088C0C-93D9-4665-9051-FF0BE350F72C.png
+../imported/setupweb_JITLearn/images/Step_3-15383059-DB87-426D-9F8F-E9EA8F425FE7.png
+../imported/setupweb_JITLearn/images/Step_3-17FE02AA-A279-4AF3-BB43-EB7EF2874598.png
+../imported/setupweb_JITLearn/images/Step_3-43B1404A-A0CC-4927-AE53-BB52550032D9.png
+../imported/setupweb_JITLearn/images/SuccessGo-F8F6D5A3-0B5A-4646-99B8-E53C7279BFBD.png
+../imported/setupweb_JITLearn/images/SuccessReplay-8DCF18C9-F680-4013-A074-846B48238EBC.png
+../imported/setupweb_JITLearn/images/SWidget-D5B440FC-5EBC-4B8C-81C0-C5F1B4018BA3.png
+../imported/setupweb_JITLearn/images/SWidgetGo-E2E5194E-B042-42AE-A154-DFA39806AB37.png
+../imported/setupweb_JITLearn/images/SWidgetHeader-90F3AFB0-DA0B-4226-A327-E7A227306C51.png
+../imported/setupweb_JITLearn/images/SWidgetProgress1-412B0D4C-C83C-449A-B830-961B2874EC38.png
+../imported/setupweb_JITLearn/images/SWidgetProgress2-6CFEE407-1F9A-48A2-AACF-6217C621DFA3.png
+../imported/setupweb_JITLearn/images/SWidgetProgress3-FB633E1C-1B6A-4EAA-86E7-67CA712FCC50.png
+../imported/setupweb_JITLearn/images/SWidgetProgress4-E8BF1449-A4B0-4CC5-BB31-A2A94B1FFF7A.png
+../imported/setupweb_JITLearn/images/SWidgetProgress5-BD95CDEC-8773-4E03-908B-353DF7FF9564.png
+../imported/setupweb_JITLearn/images/SWidgetTip1-0C0121D8-C0C2-4550-BE83-7ED7CD2864F2.png
+../imported/setupweb_JITLearn/images/SWidgetTip2-57403851-92A7-4729-9B5E-3F498F573A5A.png
+../imported/setupweb_JITLearn/images/SWidgetTip3-37D65159-332A-422F-9F32-ABD51CA80B8D.png
+../imported/setupweb_JITLearn/images/SWidgetTip4-D20FE86A-D5EB-439F-BBC8-DCBA1C3BA363.png
+../imported/setupweb_JITLearn/images/SWidgetTip5-BD2A92CE-5A99-48B2-95D5-1BA6B08E67AE.png
+../imported/setupweb_JITLearn/images/Tax-68BDB033-5609-415E-A103-8137F1020DBE.png
+../imported/setupweb_JITLearn/images/TickBG-A7DFA0D1-F35A-4D84-BCC5-EE4D8B2FCEB5.png
+../imported/setupweb_JITLearn/images/TickText-1AF77A53-230B-4D4D-8DB7-A87AAEE98DC9.png
+../imported/setupweb_JITLearn/layers.json
+../imported/setupweb_JITLearn/layers.json.js
 ../index.html
 ../offline.html
 SETTINGS:

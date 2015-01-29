@@ -1138,7 +1138,7 @@ var FramerCSS, Utils;
 
 Utils = require("./Utils");
 
-FramerCSS = "body {\n	margin: 0;\n}\n\n.framerContext {	\n	position: absolute;\n	left: 0;\n	top: 0;\n	right: 0;\n	bottom: 0;\n	pointer-events: none;\n	overflow: hidden;\n}\n\n.framerLayer {\n	display: block;\n	position: absolute;\n	background-repeat: no-repeat;\n	background-size: cover;\n	-webkit-overflow-scrolling: touch;\n	-webkit-box-sizing: border-box;\n	-webkit-user-select: none;\n}\n\n.framerLayer input,\n.framerLayer textarea,\n.framerLayer select,\n.framerLayer option\n{\n	pointer-events: auto;\n	-webkit-user-select: auto;\n}\n\n.framerDebug {\n	padding: 6px;\n	color: #fff;\n	font: 10px/1em Monaco;\n}\n";
+FramerCSS = "body {\n	margin: 0;\n}\n\n.framerContext {	\n	position: absolute;\n	left: 0;\n	top: 0;\n	right: 0;\n	bottom: 0;\n	pointer-events: none;\n	overflow: hidden;\n}\n\n.framerLayer {\n	display: block;\n	position: absolute;\n	background-repeat: no-repeat;\n	background-size: cover;\n	-webkit-overflow-scrolling: touch;\n	-webkit-box-sizing: border-box;\n	-webkit-user-select: none;\n}\n\n.framerLayer input,\n.framerLayer textarea,\n.framerLayer select,\n.framerLayer option,\n.framerLayer div[contenteditable=true]\n{\n	pointer-events: auto;\n	-webkit-user-select: auto;\n}\n\n.framerDebug {\n	padding: 6px;\n	color: #fff;\n	font: 10px/1em Monaco;\n}\n";
 
 Utils.domComplete(function() {
   return Utils.insertCSS(FramerCSS);
@@ -1859,6 +1859,9 @@ exports.DeviceView = (function(_super) {
       this.viewport.animate(_.extend(this.animationOptions, {
         properties: contentProperties
       }));
+      animation.on(Events.AnimationEnd, function() {
+        return _this._update();
+      });
       if (_hadKeyboard) {
         animation.on(Events.AnimationEnd, function() {
           return _this.showKeyboard(true);
@@ -1867,6 +1870,7 @@ exports.DeviceView = (function(_super) {
     } else {
       this.phone.properties = phoneProperties;
       this.viewport.properties = contentProperties;
+      this._update();
       if (_hadKeyboard) {
         this.showKeyboard(true);
       }
