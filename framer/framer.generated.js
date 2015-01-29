@@ -501,17 +501,17 @@ window.__imported__["setupweb_JITLearn/layers.json.js"] = [
                     "image" : {
                       "path" : "images\/BizTypeArrow-E818F10A-153B-4361-B3BB-8E9B304A881C.png",
                       "frame" : {
-                        "y" : 490,
+                        "y" : 491,
                         "x" : 886,
-                        "width" : 13,
+                        "width" : 14,
                         "height" : 9
                       }
                     },
                     "imageType" : "png",
                     "layerFrame" : {
-                      "y" : 490,
+                      "y" : 491,
                       "x" : 886,
-                      "width" : 13,
+                      "width" : 14,
                       "height" : 9
                     },
                     "name" : "BizTypeArrow"
@@ -575,17 +575,17 @@ window.__imported__["setupweb_JITLearn/layers.json.js"] = [
                     "image" : {
                       "path" : "images\/LocationArrow-F31C2AB1-39C7-43DE-86D1-B13F83A20DD7.png",
                       "frame" : {
-                        "y" : 560,
+                        "y" : 561,
                         "x" : 884,
-                        "width" : 13,
+                        "width" : 14,
                         "height" : 9
                       }
                     },
                     "imageType" : "png",
                     "layerFrame" : {
-                      "y" : 560,
+                      "y" : 561,
                       "x" : 884,
-                      "width" : 13,
+                      "width" : 14,
                       "height" : 9
                     },
                     "name" : "LocationArrow"
@@ -649,17 +649,17 @@ window.__imported__["setupweb_JITLearn/layers.json.js"] = [
                     "image" : {
                       "path" : "images\/TaxArrow-465BBFD3-83EB-4626-A3C2-C3F50C0F0FBA.png",
                       "frame" : {
-                        "y" : 610,
+                        "y" : 611,
                         "x" : 884,
-                        "width" : 13,
+                        "width" : 14,
                         "height" : 9
                       }
                     },
                     "imageType" : "png",
                     "layerFrame" : {
-                      "y" : 610,
+                      "y" : 611,
                       "x" : 884,
-                      "width" : 13,
+                      "width" : 14,
                       "height" : 9
                     },
                     "name" : "TaxArrow"
@@ -1057,7 +1057,80 @@ window.__imported__["setupweb_JITLearn/layers.json.js"] = [
             "id" : "D9BE2924-4160-44AC-B7E0-EC96224C82DA",
             "visible" : true,
             "children" : [
+              {
+                "maskFrame" : null,
+                "id" : "7FFD3495-576D-446C-ACCC-6058574E89FE",
+                "visible" : true,
+                "children" : [
+                  {
+                    "maskFrame" : null,
+                    "id" : "6117968E-4DA5-45FE-9392-DE84C744E3C8",
+                    "visible" : true,
+                    "children" : [
 
+                    ],
+                    "image" : {
+                      "path" : "images\/Checkmark1-6117968E-4DA5-45FE-9392-DE84C744E3C8.png",
+                      "frame" : {
+                        "y" : 263,
+                        "x" : 1094,
+                        "width" : 22,
+                        "height" : 17
+                      }
+                    },
+                    "imageType" : "png",
+                    "layerFrame" : {
+                      "y" : 263,
+                      "x" : 1094,
+                      "width" : 22,
+                      "height" : 17
+                    },
+                    "name" : "Checkmark1"
+                  },
+                  {
+                    "maskFrame" : null,
+                    "id" : "F89C92C5-02F1-4A29-BCA2-6FB522F956BA",
+                    "visible" : true,
+                    "children" : [
+
+                    ],
+                    "image" : {
+                      "path" : "images\/TickBG-F89C92C5-02F1-4A29-BCA2-6FB522F956BA.png",
+                      "frame" : {
+                        "y" : 249,
+                        "x" : 1083,
+                        "width" : 44,
+                        "height" : 44
+                      }
+                    },
+                    "imageType" : "png",
+                    "layerFrame" : {
+                      "y" : 249,
+                      "x" : 1083,
+                      "width" : 44,
+                      "height" : 44
+                    },
+                    "name" : "TickBG"
+                  }
+                ],
+                "image" : {
+                  "path" : "images\/TickGraphic-7FFD3495-576D-446C-ACCC-6058574E89FE.png",
+                  "frame" : {
+                    "y" : 249,
+                    "x" : 1083,
+                    "width" : 44,
+                    "height" : 44
+                  }
+                },
+                "imageType" : "png",
+                "layerFrame" : {
+                  "y" : 249,
+                  "x" : 1083,
+                  "width" : 44,
+                  "height" : 44
+                },
+                "name" : "TickGraphic"
+              }
             ],
             "image" : {
               "path" : "images\/Guide1Content-D9BE2924-4160-44AC-B7E0-EC96224C82DA.png",
@@ -1570,27 +1643,27 @@ window.__imported__["setupweb_JITLearn/layers.json.js"] = [
                     "image" : {
                       "path" : "images\/Guide1Tip3Go-D194C242-3E97-480F-B0F0-2BB7D68016C1.png",
                       "frame" : {
-                        "y" : 249,
-                        "x" : 1099,
-                        "width" : 76,
-                        "height" : 75
+                        "y" : 216,
+                        "x" : 1132,
+                        "width" : 92,
+                        "height" : 91
                       }
                     },
                     "imageType" : "png",
                     "layerFrame" : {
-                      "y" : 249,
-                      "x" : 1099,
-                      "width" : 76,
-                      "height" : 75
+                      "y" : 216,
+                      "x" : 1132,
+                      "width" : 92,
+                      "height" : 91
                     },
                     "name" : "Guide1Tip3Go"
                   },
                   {
                     "maskFrame" : {
-                      "y" : 220,
-                      "x" : 769,
-                      "width" : 366,
-                      "height" : 146
+                      "y" : 181,
+                      "x" : 734,
+                      "width" : 444,
+                      "height" : 181
                     },
                     "id" : "FBB8CEC7-E142-4C6E-9041-4B939BAD1621",
                     "visible" : true,
@@ -1600,18 +1673,18 @@ window.__imported__["setupweb_JITLearn/layers.json.js"] = [
                     "image" : {
                       "path" : "images\/Guide1Tip3BG-FBB8CEC7-E142-4C6E-9041-4B939BAD1621.png",
                       "frame" : {
-                        "y" : 220,
-                        "x" : 769,
-                        "width" : 366,
-                        "height" : 146
+                        "y" : 181,
+                        "x" : 734,
+                        "width" : 444,
+                        "height" : 181
                       }
                     },
                     "imageType" : "png",
                     "layerFrame" : {
-                      "y" : 220,
-                      "x" : 769,
-                      "width" : 366,
-                      "height" : 146
+                      "y" : 181,
+                      "x" : 734,
+                      "width" : 444,
+                      "height" : 181
                     },
                     "name" : "Guide1Tip3BG"
                   }
@@ -1619,18 +1692,18 @@ window.__imported__["setupweb_JITLearn/layers.json.js"] = [
                 "image" : {
                   "path" : "images\/Guide1Tip3-3151C46D-6307-40E1-8FCF-935A558E4561.png",
                   "frame" : {
-                    "y" : 220,
-                    "x" : 769,
-                    "width" : 406,
-                    "height" : 146
+                    "y" : 181,
+                    "x" : 734,
+                    "width" : 490,
+                    "height" : 181
                   }
                 },
                 "imageType" : "png",
                 "layerFrame" : {
-                  "y" : 220,
-                  "x" : 769,
-                  "width" : 406,
-                  "height" : 146
+                  "y" : 181,
+                  "x" : 734,
+                  "width" : 490,
+                  "height" : 181
                 },
                 "name" : "Guide1Tip3"
               },
@@ -1649,27 +1722,27 @@ window.__imported__["setupweb_JITLearn/layers.json.js"] = [
                     "image" : {
                       "path" : "images\/Guide1Tip2Go-329521BD-0FD9-4F2E-8749-41EAAADFB0D6.png",
                       "frame" : {
-                        "y" : 376,
-                        "x" : 1037,
-                        "width" : 75,
-                        "height" : 75
+                        "y" : 382,
+                        "x" : 1099,
+                        "width" : 91,
+                        "height" : 91
                       }
                     },
                     "imageType" : "png",
                     "layerFrame" : {
-                      "y" : 376,
-                      "x" : 1037,
-                      "width" : 75,
-                      "height" : 75
+                      "y" : 382,
+                      "x" : 1099,
+                      "width" : 91,
+                      "height" : 91
                     },
                     "name" : "Guide1Tip2Go"
                   },
                   {
                     "maskFrame" : {
-                      "y" : 343,
-                      "x" : 706,
-                      "width" : 374,
-                      "height" : 141
+                      "y" : 342,
+                      "x" : 699,
+                      "width" : 455,
+                      "height" : 175
                     },
                     "id" : "34D98571-9E32-4B7E-9934-7F8D60A56512",
                     "visible" : true,
@@ -1679,18 +1752,18 @@ window.__imported__["setupweb_JITLearn/layers.json.js"] = [
                     "image" : {
                       "path" : "images\/Guide1Tip2BG-34D98571-9E32-4B7E-9934-7F8D60A56512.png",
                       "frame" : {
-                        "y" : 343,
-                        "x" : 706,
-                        "width" : 374,
-                        "height" : 141
+                        "y" : 342,
+                        "x" : 699,
+                        "width" : 455,
+                        "height" : 175
                       }
                     },
                     "imageType" : "png",
                     "layerFrame" : {
-                      "y" : 343,
-                      "x" : 706,
-                      "width" : 374,
-                      "height" : 141
+                      "y" : 342,
+                      "x" : 699,
+                      "width" : 455,
+                      "height" : 175
                     },
                     "name" : "Guide1Tip2BG"
                   }
@@ -1698,18 +1771,18 @@ window.__imported__["setupweb_JITLearn/layers.json.js"] = [
                 "image" : {
                   "path" : "images\/Guide1Tip2-65EF375C-E472-4652-893C-8355A56BB5FC.png",
                   "frame" : {
-                    "y" : 343,
-                    "x" : 706,
-                    "width" : 406,
-                    "height" : 141
+                    "y" : 342,
+                    "x" : 699,
+                    "width" : 491,
+                    "height" : 175
                   }
                 },
                 "imageType" : "png",
                 "layerFrame" : {
-                  "y" : 343,
-                  "x" : 706,
-                  "width" : 406,
-                  "height" : 141
+                  "y" : 342,
+                  "x" : 699,
+                  "width" : 491,
+                  "height" : 175
                 },
                 "name" : "Guide1Tip2"
               },
@@ -1728,27 +1801,27 @@ window.__imported__["setupweb_JITLearn/layers.json.js"] = [
                     "image" : {
                       "path" : "images\/Guide1Tip1Go-FCBED6A7-4B0D-4762-8FB9-A7137BFA508C.png",
                       "frame" : {
-                        "y" : 390,
-                        "x" : 859,
-                        "width" : 75,
-                        "height" : 75
+                        "y" : 432,
+                        "x" : 664,
+                        "width" : 91,
+                        "height" : 91
                       }
                     },
                     "imageType" : "png",
                     "layerFrame" : {
-                      "y" : 390,
-                      "x" : 859,
-                      "width" : 75,
-                      "height" : 75
+                      "y" : 432,
+                      "x" : 664,
+                      "width" : 91,
+                      "height" : 91
                     },
                     "name" : "Guide1Tip1Go"
                   },
                   {
                     "maskFrame" : {
-                      "y" : 350,
-                      "x" : 536,
-                      "width" : 366,
-                      "height" : 157
+                      "y" : 391,
+                      "x" : 275,
+                      "width" : 444,
+                      "height" : 194
                     },
                     "id" : "935F8047-E5B4-49B5-9BE2-198FF437FBEA",
                     "visible" : true,
@@ -1758,18 +1831,18 @@ window.__imported__["setupweb_JITLearn/layers.json.js"] = [
                     "image" : {
                       "path" : "images\/Guide1Tip1BG-935F8047-E5B4-49B5-9BE2-198FF437FBEA.png",
                       "frame" : {
-                        "y" : 350,
-                        "x" : 536,
-                        "width" : 366,
-                        "height" : 157
+                        "y" : 391,
+                        "x" : 275,
+                        "width" : 444,
+                        "height" : 194
                       }
                     },
                     "imageType" : "png",
                     "layerFrame" : {
-                      "y" : 350,
-                      "x" : 536,
-                      "width" : 366,
-                      "height" : 157
+                      "y" : 391,
+                      "x" : 275,
+                      "width" : 444,
+                      "height" : 194
                     },
                     "name" : "Guide1Tip1BG"
                   }
@@ -1777,20 +1850,99 @@ window.__imported__["setupweb_JITLearn/layers.json.js"] = [
                 "image" : {
                   "path" : "images\/Guide1Tip1-B1030943-14EA-420F-B039-D4BA3C33B982.png",
                   "frame" : {
-                    "y" : 350,
-                    "x" : 536,
-                    "width" : 398,
-                    "height" : 157
+                    "y" : 391,
+                    "x" : 275,
+                    "width" : 480,
+                    "height" : 194
                   }
                 },
                 "imageType" : "png",
                 "layerFrame" : {
-                  "y" : 350,
-                  "x" : 536,
-                  "width" : 398,
-                  "height" : 157
+                  "y" : 391,
+                  "x" : 275,
+                  "width" : 480,
+                  "height" : 194
                 },
                 "name" : "Guide1Tip1"
+              },
+              {
+                "maskFrame" : null,
+                "id" : "4D1C09F6-BA96-4E7C-A404-4E2F7E0B2879",
+                "visible" : true,
+                "children" : [
+                  {
+                    "maskFrame" : null,
+                    "id" : "553D51DC-CC99-4A97-BA1E-768E4F891FA6",
+                    "visible" : true,
+                    "children" : [
+
+                    ],
+                    "image" : {
+                      "path" : "images\/Guide1Tip1OpenGo-553D51DC-CC99-4A97-BA1E-768E4F891FA6.png",
+                      "frame" : {
+                        "y" : 378,
+                        "x" : 877,
+                        "width" : 91,
+                        "height" : 91
+                      }
+                    },
+                    "imageType" : "png",
+                    "layerFrame" : {
+                      "y" : 378,
+                      "x" : 877,
+                      "width" : 91,
+                      "height" : 91
+                    },
+                    "name" : "Guide1Tip1OpenGo"
+                  },
+                  {
+                    "maskFrame" : {
+                      "y" : 337,
+                      "x" : 488,
+                      "width" : 444,
+                      "height" : 177
+                    },
+                    "id" : "D7B34598-84F6-433F-9A93-DFC7C7C3D6D2",
+                    "visible" : true,
+                    "children" : [
+
+                    ],
+                    "image" : {
+                      "path" : "images\/Guide1Tip1BG-D7B34598-84F6-433F-9A93-DFC7C7C3D6D2.png",
+                      "frame" : {
+                        "y" : 337,
+                        "x" : 488,
+                        "width" : 444,
+                        "height" : 177
+                      }
+                    },
+                    "imageType" : "png",
+                    "layerFrame" : {
+                      "y" : 337,
+                      "x" : 488,
+                      "width" : 444,
+                      "height" : 177
+                    },
+                    "name" : "Guide1Tip1BG"
+                  }
+                ],
+                "image" : {
+                  "path" : "images\/Guide1TipOpen-4D1C09F6-BA96-4E7C-A404-4E2F7E0B2879.png",
+                  "frame" : {
+                    "y" : 337,
+                    "x" : 488,
+                    "width" : 480,
+                    "height" : 177
+                  }
+                },
+                "imageType" : "png",
+                "layerFrame" : {
+                  "y" : 337,
+                  "x" : 488,
+                  "width" : 480,
+                  "height" : 177
+                },
+                "name" : "Guide1TipOpen"
               },
               {
                 "maskFrame" : {
@@ -2763,10 +2915,10 @@ window.__imported__["setupweb_JITLearn/layers.json.js"] = [
             "children" : [
               {
                 "maskFrame" : {
-                  "y" : 306,
-                  "x" : 683,
-                  "width" : 124,
-                  "height" : 43
+                  "y" : 305,
+                  "x" : 679,
+                  "width" : 132,
+                  "height" : 50
                 },
                 "id" : "BD2A92CE-5A99-48B2-95D5-1BA6B08E67AE",
                 "visible" : true,
@@ -2776,27 +2928,27 @@ window.__imported__["setupweb_JITLearn/layers.json.js"] = [
                 "image" : {
                   "path" : "images\/SWidgetTip5-BD2A92CE-5A99-48B2-95D5-1BA6B08E67AE.png",
                   "frame" : {
-                    "y" : 306,
-                    "x" : 683,
-                    "width" : 124,
-                    "height" : 43
+                    "y" : 305,
+                    "x" : 679,
+                    "width" : 132,
+                    "height" : 50
                   }
                 },
                 "imageType" : "png",
                 "layerFrame" : {
-                  "y" : 306,
-                  "x" : 683,
-                  "width" : 124,
-                  "height" : 43
+                  "y" : 305,
+                  "x" : 679,
+                  "width" : 132,
+                  "height" : 50
                 },
                 "name" : "SWidgetTip5"
               },
               {
                 "maskFrame" : {
-                  "y" : 306,
-                  "x" : 612,
-                  "width" : 143,
-                  "height" : 43
+                  "y" : 305,
+                  "x" : 608,
+                  "width" : 151,
+                  "height" : 50
                 },
                 "id" : "D20FE86A-D5EB-439F-BBC8-DCBA1C3BA363",
                 "visible" : true,
@@ -2806,27 +2958,27 @@ window.__imported__["setupweb_JITLearn/layers.json.js"] = [
                 "image" : {
                   "path" : "images\/SWidgetTip4-D20FE86A-D5EB-439F-BBC8-DCBA1C3BA363.png",
                   "frame" : {
-                    "y" : 306,
-                    "x" : 612,
-                    "width" : 143,
-                    "height" : 43
+                    "y" : 305,
+                    "x" : 608,
+                    "width" : 151,
+                    "height" : 50
                   }
                 },
                 "imageType" : "png",
                 "layerFrame" : {
-                  "y" : 306,
-                  "x" : 612,
-                  "width" : 143,
-                  "height" : 43
+                  "y" : 305,
+                  "x" : 608,
+                  "width" : 151,
+                  "height" : 50
                 },
                 "name" : "SWidgetTip4"
               },
               {
                 "maskFrame" : {
-                  "y" : 306,
-                  "x" : 546,
-                  "width" : 118,
-                  "height" : 43
+                  "y" : 305,
+                  "x" : 542,
+                  "width" : 126,
+                  "height" : 50
                 },
                 "id" : "37D65159-332A-422F-9F32-ABD51CA80B8D",
                 "visible" : true,
@@ -2836,27 +2988,27 @@ window.__imported__["setupweb_JITLearn/layers.json.js"] = [
                 "image" : {
                   "path" : "images\/SWidgetTip3-37D65159-332A-422F-9F32-ABD51CA80B8D.png",
                   "frame" : {
-                    "y" : 306,
-                    "x" : 546,
-                    "width" : 118,
-                    "height" : 43
+                    "y" : 305,
+                    "x" : 542,
+                    "width" : 126,
+                    "height" : 50
                   }
                 },
                 "imageType" : "png",
                 "layerFrame" : {
-                  "y" : 306,
-                  "x" : 546,
-                  "width" : 118,
-                  "height" : 43
+                  "y" : 305,
+                  "x" : 542,
+                  "width" : 126,
+                  "height" : 50
                 },
                 "name" : "SWidgetTip3"
               },
               {
                 "maskFrame" : {
-                  "y" : 306,
-                  "x" : 468,
-                  "width" : 107,
-                  "height" : 43
+                  "y" : 305,
+                  "x" : 464,
+                  "width" : 115,
+                  "height" : 50
                 },
                 "id" : "57403851-92A7-4729-9B5E-3F498F573A5A",
                 "visible" : true,
@@ -2866,27 +3018,27 @@ window.__imported__["setupweb_JITLearn/layers.json.js"] = [
                 "image" : {
                   "path" : "images\/SWidgetTip2-57403851-92A7-4729-9B5E-3F498F573A5A.png",
                   "frame" : {
-                    "y" : 306,
-                    "x" : 468,
-                    "width" : 107,
-                    "height" : 43
+                    "y" : 305,
+                    "x" : 464,
+                    "width" : 115,
+                    "height" : 50
                   }
                 },
                 "imageType" : "png",
                 "layerFrame" : {
-                  "y" : 306,
-                  "x" : 468,
-                  "width" : 107,
-                  "height" : 43
+                  "y" : 305,
+                  "x" : 464,
+                  "width" : 115,
+                  "height" : 50
                 },
                 "name" : "SWidgetTip2"
               },
               {
                 "maskFrame" : {
-                  "y" : 306,
-                  "x" : 394,
-                  "width" : 138,
-                  "height" : 43
+                  "y" : 305,
+                  "x" : 390,
+                  "width" : 146,
+                  "height" : 50
                 },
                 "id" : "0C0121D8-C0C2-4550-BE83-7ED7CD2864F2",
                 "visible" : true,
@@ -2896,18 +3048,18 @@ window.__imported__["setupweb_JITLearn/layers.json.js"] = [
                 "image" : {
                   "path" : "images\/SWidgetTip1-0C0121D8-C0C2-4550-BE83-7ED7CD2864F2.png",
                   "frame" : {
-                    "y" : 306,
-                    "x" : 394,
-                    "width" : 138,
-                    "height" : 43
+                    "y" : 305,
+                    "x" : 390,
+                    "width" : 146,
+                    "height" : 50
                   }
                 },
                 "imageType" : "png",
                 "layerFrame" : {
-                  "y" : 306,
-                  "x" : 394,
-                  "width" : 138,
-                  "height" : 43
+                  "y" : 305,
+                  "x" : 390,
+                  "width" : 146,
+                  "height" : 50
                 },
                 "name" : "SWidgetTip1"
               },

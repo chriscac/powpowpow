@@ -292,6 +292,8 @@ startGuide1Intro = ->
 	layers.Guide1Tip3.opacity = 0
 	layers.Guide1Tip1.opacity = 0
 	layers.Guide1Content.scale = 0.8
+	layers.Guide1TipOpen.opacity = 0
+
 		
 	
 	layers.Guide1Content.animate
@@ -334,9 +336,38 @@ startGuide1 = ->
 	
 	layers.Guide1Tip2.opacity = 0
 	layers.Guide1Tip3.opacity = 0
+	
+	
+
+	# 	Close interaction
+	layers.Guide1Header.on Events.MouseOver, ->
+		document.body.style.cursor = "pointer"
+	layers.Guide1Header.on Events.MouseOut, ->
+		document.body.style.cursor = "auto"
+	
+	layers.Guide1Header.on Events.Click, ->
+		startGuidesIndex()
+
+
+	# Animate in the tip
+	Guide1TipOpenOriginY = layers.Guide1TipOpen.y
+	layers.Guide1TipOpen.y = Guide1TipOpenOriginY - 10
+	layers.Guide1TipOpen.animate
+		properties:
+			opacity: 1
+			y: Guide1TipOpenOriginY
+		curve:"spring(150,12,0)"
+		delay: 0.5
 		
+	layers.Guide1Tip1OpenGo.on Events.Click, ->
+		layers.Guide1TipOpen.animate
+			properties:
+				opacity: 0
+			time:0.2
+		tourStart()
+
 	
-	
+tourStart = ->	
 	# Animate in the tip
 	layers.Guide1Tip1.opacity = 0
 	Guide1Tip1OriginY = layers.Guide1Tip1.y
@@ -355,15 +386,6 @@ startGuide1 = ->
 			time:0.2
 		tourMid()
 		
-	# 	Close interaction
-	layers.Guide1Header.on Events.MouseOver, ->
-		document.body.style.cursor = "pointer"
-	layers.Guide1Header.on Events.MouseOut, ->
-		document.body.style.cursor = "auto"
-	
-	layers.Guide1Header.on Events.Click, ->
-		startGuidesIndex()
-
 
 tourMid = ->
 	# Animate in the tip

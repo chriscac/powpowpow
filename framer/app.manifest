@@ -1,5 +1,5 @@
 CACHE MANIFEST
-# 1422490675.969535
+# 1422498171.680684
 CACHE:
 /_server/server.js
 ../.DS_Store
@@ -46,6 +46,7 @@ CACHE:
 ../imported/setupweb_JITLearn/images/BizType-1046D3CE-A7D7-48FC-96D5-544A0F470867.png
 ../imported/setupweb_JITLearn/images/Cashflow-307B3C2B-ADFB-4106-AF08-2DF2B7E7360F.png
 ../imported/setupweb_JITLearn/images/Checkmark1-52B8C3D9-78A5-4591-8244-43A086B5B6A5.png
+../imported/setupweb_JITLearn/images/Checkmark1-6117968E-4DA5-45FE-9392-DE84C744E3C8.png
 ../imported/setupweb_JITLearn/images/ContButton-9468302F-2A6B-4695-92B2-7A4180CA589F.png
 ../imported/setupweb_JITLearn/images/ContButtonLoad-E05550B2-D0E3-4DC7-8AAB-4FF20E138C4D.png
 ../imported/setupweb_JITLearn/images/Content-22483209-0D14-4D82-8E4A-F45EF9BEFB32.png
@@ -61,7 +62,9 @@ CACHE:
 ../imported/setupweb_JITLearn/images/Guide1Go-2D36E1D1-4891-4780-AF0A-5F83CB45CAAA.png
 ../imported/setupweb_JITLearn/images/Guide1Screen-765106FD-3DEA-4580-9D04-E9D3A17901C5.png
 ../imported/setupweb_JITLearn/images/Guide1Tip1BG-935F8047-E5B4-49B5-9BE2-198FF437FBEA.png
+../imported/setupweb_JITLearn/images/Guide1Tip1BG-D7B34598-84F6-433F-9A93-DFC7C7C3D6D2.png
 ../imported/setupweb_JITLearn/images/Guide1Tip1Go-FCBED6A7-4B0D-4762-8FB9-A7137BFA508C.png
+../imported/setupweb_JITLearn/images/Guide1Tip1OpenGo-553D51DC-CC99-4A97-BA1E-768E4F891FA6.png
 ../imported/setupweb_JITLearn/images/Guide1Tip2BG-34D98571-9E32-4B7E-9934-7F8D60A56512.png
 ../imported/setupweb_JITLearn/images/Guide1Tip2Go-329521BD-0FD9-4F2E-8749-41EAAADFB0D6.png
 ../imported/setupweb_JITLearn/images/Guide1Tip3BG-FBB8CEC7-E142-4C6E-9041-4B939BAD1621.png
@@ -116,6 +119,7 @@ CACHE:
 ../imported/setupweb_JITLearn/images/SWidgetTip5-BD2A92CE-5A99-48B2-95D5-1BA6B08E67AE.png
 ../imported/setupweb_JITLearn/images/Tax-68BDB033-5609-415E-A103-8137F1020DBE.png
 ../imported/setupweb_JITLearn/images/TickBG-A7DFA0D1-F35A-4D84-BCC5-EE4D8B2FCEB5.png
+../imported/setupweb_JITLearn/images/TickBG-F89C92C5-02F1-4A29-BCA2-6FB522F956BA.png
 ../imported/setupweb_JITLearn/images/TickText-1AF77A53-230B-4D4D-8DB7-A87AAEE98DC9.png
 ../imported/setupweb_JITLearn/layers.json
 ../imported/setupweb_JITLearn/layers.json.js
