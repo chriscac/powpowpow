@@ -1054,20 +1054,18 @@ startGuide3 = ->
 
 
 	# Animate in the tip
-	Guide3TipOpenOriginY = layers.Guide3TipOpen.y
-	layers.Guide3TipOpen.y = Guide3TipOpenOriginY - 10
 	layers.Guide3TipOpen.animate
 		properties:
 			opacity: 1
-			y: Guide3TipOpenOriginY
-		curve:"spring(150,12,0)"
-		delay: 0.5
+		curve:"ease"
+		delay: 0.3
+		time: 0.2
 		
 	layers.Guide3TipOpenGo.on Events.Click, ->
 		layers.Guide3TipOpen.animate
 			properties:
 				opacity: 0
-			time:0.2
+			time:0.3
 		tour3Start()
 
 # 	
@@ -1433,7 +1431,7 @@ tourFinish3 = ->
 
 
 # Initialize start screen
-startBankRec()
+startForm()
 	
 
 

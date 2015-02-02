@@ -6465,48 +6465,121 @@ window.__imported__["setupweb_JITLearn/layers.json.js"] = [
                     "image" : {
                       "path" : "images\/Guide3TipOpenGo-EEB3E84B-B780-462C-9724-9FE7E2D082E7.png",
                       "frame" : {
-                        "y" : 581,
-                        "x" : 673,
-                        "width" : 91,
-                        "height" : 91
+                        "y" : 681,
+                        "x" : 634,
+                        "width" : 172,
+                        "height" : 54
                       }
                     },
                     "imageType" : "png",
                     "layerFrame" : {
-                      "y" : 581,
-                      "x" : 673,
-                      "width" : 91,
-                      "height" : 91
+                      "y" : 681,
+                      "x" : 634,
+                      "width" : 172,
+                      "height" : 54
                     },
                     "name" : "Guide3TipOpenGo"
                   },
                   {
                     "maskFrame" : {
-                      "y" : 260,
-                      "x" : 335,
-                      "width" : 768,
-                      "height" : 489
+                      "y" : 161,
+                      "x" : 180,
+                      "width" : 1077,
+                      "height" : 679
                     },
                     "id" : "C9050DF6-E1BC-4373-AE0D-FAC825D44669",
                     "visible" : true,
                     "children" : [
+                      {
+                        "maskFrame" : null,
+                        "id" : "24C46D0A-8E64-4718-AEFA-FA1F8AFFBD65",
+                        "visible" : true,
+                        "children" : [
+                          {
+                            "maskFrame" : null,
+                            "id" : "93D3DAF0-1D53-4259-B80A-6747509126BA",
+                            "visible" : true,
+                            "children" : [
 
+                            ],
+                            "image" : {
+                              "path" : "images\/BankRec0-93D3DAF0-1D53-4259-B80A-6747509126BA.png",
+                              "frame" : {
+                                "y" : 324,
+                                "x" : 681,
+                                "width" : 76,
+                                "height" : 51
+                              }
+                            },
+                            "imageType" : "png",
+                            "layerFrame" : {
+                              "y" : 324,
+                              "x" : 681,
+                              "width" : 76,
+                              "height" : 51
+                            },
+                            "name" : "BankRec0"
+                          }
+                        ],
+                        "image" : {
+                          "path" : "images\/BankRec0-24C46D0A-8E64-4718-AEFA-FA1F8AFFBD65.png",
+                          "frame" : {
+                            "y" : 278,
+                            "x" : 648,
+                            "width" : 141,
+                            "height" : 141
+                          }
+                        },
+                        "imageType" : "png",
+                        "layerFrame" : {
+                          "y" : 278,
+                          "x" : 648,
+                          "width" : 141,
+                          "height" : 141
+                        },
+                        "name" : "BankRec0"
+                      },
+                      {
+                        "maskFrame" : null,
+                        "id" : "0EF8E41B-7292-48FF-97D1-7DFE47BE16A5",
+                        "visible" : true,
+                        "children" : [
+
+                        ],
+                        "image" : {
+                          "path" : "images\/Bitmap__Border_6-0EF8E41B-7292-48FF-97D1-7DFE47BE16A5.png",
+                          "frame" : {
+                            "y" : 0,
+                            "x" : 0,
+                            "width" : 1440,
+                            "height" : 1000
+                          }
+                        },
+                        "imageType" : "png",
+                        "layerFrame" : {
+                          "y" : 0,
+                          "x" : 0,
+                          "width" : 1440,
+                          "height" : 1000
+                        },
+                        "name" : "Bitmap__Border_6"
+                      }
                     ],
                     "image" : {
                       "path" : "images\/Guide3TipOpenBG-C9050DF6-E1BC-4373-AE0D-FAC825D44669.png",
                       "frame" : {
-                        "y" : 260,
-                        "x" : 335,
-                        "width" : 768,
-                        "height" : 489
+                        "y" : 161,
+                        "x" : 180,
+                        "width" : 1077,
+                        "height" : 679
                       }
                     },
                     "imageType" : "png",
                     "layerFrame" : {
-                      "y" : 260,
-                      "x" : 335,
-                      "width" : 768,
-                      "height" : 489
+                      "y" : 161,
+                      "x" : 180,
+                      "width" : 1077,
+                      "height" : 679
                     },
                     "name" : "Guide3TipOpenBG"
                   }
@@ -6514,18 +6587,18 @@ window.__imported__["setupweb_JITLearn/layers.json.js"] = [
                 "image" : {
                   "path" : "images\/Guide3TipOpen-4B303D9E-C667-4735-9DF9-5E73D2626B72.png",
                   "frame" : {
-                    "y" : 260,
-                    "x" : 335,
-                    "width" : 768,
-                    "height" : 489
+                    "y" : 161,
+                    "x" : 180,
+                    "width" : 1077,
+                    "height" : 679
                   }
                 },
                 "imageType" : "png",
                 "layerFrame" : {
-                  "y" : 260,
-                  "x" : 335,
-                  "width" : 768,
-                  "height" : 489
+                  "y" : 161,
+                  "x" : 180,
+                  "width" : 1077,
+                  "height" : 679
                 },
                 "name" : "Guide3TipOpen"
               },
@@ -6630,33 +6703,62 @@ window.__imported__["setupweb_JITLearn/layers.json.js"] = [
                 "children" : [
                   {
                     "maskFrame" : {
-                      "y" : 373,
+                      "y" : 161,
                       "x" : 180,
                       "width" : 1077,
-                      "height" : 467
+                      "height" : 679
                     },
-                    "id" : "2BF490C7-E761-48B1-8691-808636DA78A7",
+                    "id" : "11B5AFF9-173F-4DD1-B24F-21B60ECC0C8F",
                     "visible" : true,
                     "children" : [
+                      {
+                        "maskFrame" : {
+                          "y" : 373,
+                          "x" : 180,
+                          "width" : 1077,
+                          "height" : 467
+                        },
+                        "id" : "2BF490C7-E761-48B1-8691-808636DA78A7",
+                        "visible" : true,
+                        "children" : [
 
+                        ],
+                        "image" : {
+                          "path" : "images\/Bitmap_3-2BF490C7-E761-48B1-8691-808636DA78A7.png",
+                          "frame" : {
+                            "y" : 373,
+                            "x" : 180,
+                            "width" : 1077,
+                            "height" : 474
+                          }
+                        },
+                        "imageType" : "png",
+                        "layerFrame" : {
+                          "y" : 373,
+                          "x" : 180,
+                          "width" : 1077,
+                          "height" : 474
+                        },
+                        "name" : "Bitmap_3"
+                      }
                     ],
                     "image" : {
-                      "path" : "images\/Bitmap_3-2BF490C7-E761-48B1-8691-808636DA78A7.png",
+                      "path" : "images\/Content-11B5AFF9-173F-4DD1-B24F-21B60ECC0C8F.png",
                       "frame" : {
-                        "y" : 373,
-                        "x" : 180,
-                        "width" : 1077,
-                        "height" : 474
+                        "y" : 109,
+                        "x" : 0,
+                        "width" : 1440,
+                        "height" : 891
                       }
                     },
                     "imageType" : "png",
                     "layerFrame" : {
-                      "y" : 373,
-                      "x" : 180,
-                      "width" : 1077,
-                      "height" : 474
+                      "y" : 109,
+                      "x" : 0,
+                      "width" : 1440,
+                      "height" : 891
                     },
-                    "name" : "Bitmap_3"
+                    "name" : "Content"
                   }
                 ],
                 "image" : {
@@ -6712,16 +6814,16 @@ window.__imported__["setupweb_JITLearn/layers.json.js"] = [
                   "path" : "images\/TickText3-9A0DE362-E91B-4828-B114-53B04551B520.png",
                   "frame" : {
                     "y" : 488,
-                    "x" : 567,
-                    "width" : 303,
+                    "x" : 546,
+                    "width" : 345,
                     "height" : 109
                   }
                 },
                 "imageType" : "png",
                 "layerFrame" : {
                   "y" : 488,
-                  "x" : 567,
-                  "width" : 303,
+                  "x" : 546,
+                  "width" : 345,
                   "height" : 109
                 },
                 "name" : "TickText3"
@@ -6879,16 +6981,16 @@ window.__imported__["setupweb_JITLearn/layers.json.js"] = [
               "path" : "images\/SuccessTick3-34C21F58-865F-4DA3-98ED-278BAE814D10.png",
               "frame" : {
                 "y" : 273,
-                "x" : 567,
-                "width" : 303,
+                "x" : 546,
+                "width" : 345,
                 "height" : 463
               }
             },
             "imageType" : "png",
             "layerFrame" : {
               "y" : 273,
-              "x" : 567,
-              "width" : 303,
+              "x" : 546,
+              "width" : 345,
               "height" : 463
             },
             "name" : "SuccessTick3"
