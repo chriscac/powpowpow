@@ -1433,7 +1433,7 @@ tourFinish3 = ->
 
 
 # Initialize start screen
-startGuide3Intro()
+startBankRec()
 	
 
 

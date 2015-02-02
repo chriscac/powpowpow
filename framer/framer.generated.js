@@ -5878,6 +5878,60 @@ window.__imported__["setupweb_JITLearn/layers.json.js"] = [
         "children" : [
           {
             "maskFrame" : {
+              "y" : 272,
+              "x" : 357,
+              "width" : 974,
+              "height" : 786
+            },
+            "id" : "4A27293F-6EC6-4886-A136-2A0F1C110976",
+            "visible" : true,
+            "children" : [
+              {
+                "maskFrame" : null,
+                "id" : "13095397-13CA-40DB-B37F-91EF883F1821",
+                "visible" : true,
+                "children" : [
+
+                ],
+                "image" : {
+                  "path" : "images\/Bitmap-13095397-13CA-40DB-B37F-91EF883F1821.png",
+                  "frame" : {
+                    "y" : 91,
+                    "x" : 355,
+                    "width" : 973,
+                    "height" : 859
+                  }
+                },
+                "imageType" : "png",
+                "layerFrame" : {
+                  "y" : 91,
+                  "x" : 355,
+                  "width" : 973,
+                  "height" : 859
+                },
+                "name" : "Bitmap"
+              }
+            ],
+            "image" : {
+              "path" : "images\/Background_2-4A27293F-6EC6-4886-A136-2A0F1C110976.png",
+              "frame" : {
+                "y" : 272,
+                "x" : 357,
+                "width" : 974,
+                "height" : 786
+              }
+            },
+            "imageType" : "png",
+            "layerFrame" : {
+              "y" : 272,
+              "x" : 357,
+              "width" : 974,
+              "height" : 786
+            },
+            "name" : "Background_2"
+          },
+          {
+            "maskFrame" : {
               "y" : 209,
               "x" : 357,
               "width" : 974,
@@ -5937,7 +5991,7 @@ window.__imported__["setupweb_JITLearn/layers.json.js"] = [
             "y" : 209,
             "x" : 357,
             "width" : 974,
-            "height" : 840
+            "height" : 849
           }
         },
         "imageType" : "png",
@@ -5945,7 +5999,7 @@ window.__imported__["setupweb_JITLearn/layers.json.js"] = [
           "y" : 209,
           "x" : 357,
           "width" : 974,
-          "height" : 840
+          "height" : 849
         },
         "name" : "BankRecContent"
       },
