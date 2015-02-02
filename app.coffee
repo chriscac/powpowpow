@@ -984,13 +984,18 @@ startGuide3Intro = ->
 	layers.Guide3Tour.center()
 	layers.Guide3Tour.pixelAlign()
 	
-	layers.Guide3Tip5.opacity = 0
 	layers.Guide3Tip4.opacity = 0
 	layers.Guide3Tip2.opacity = 0
 	layers.Guide3Tip3.opacity = 0
 	layers.Guide3Tip1.opacity = 0
 	layers.Guide3Content.scale = 0.8
 	layers.Guide3TipOpen.opacity = 0
+	layers.Guide3Tip1Overlay.opacity = 0
+	layers.Guide3Tip2Overlay.opacity = 0
+	layers.Guide3Tip3Overlay.opacity = 0
+	layers.Guide3Tip4Overlay.opacity = 0
+	layers.Guide3Screen2.opacity = 0
+
 
 		
 	
@@ -1035,7 +1040,6 @@ startGuide3 = ->
 	layers.Guide3Tip2.opacity = 0
 	layers.Guide3Tip3.opacity = 0
 	layers.Guide3Tip4.opacity = 0
-	layers.Guide3Tip5.opacity = 0
 	
 	
 
@@ -1078,12 +1082,21 @@ tour3Start = ->
 			y: Guide3Tip1OriginY
 		curve:"spring(150,12,0)"
 		delay: 0.5
+	layers.Guide3Tip1Overlay.animate
+		properties:
+			opacity: 1
+		curve:"ease"
+		delay: 0.5
 		
 	layers.Guide3Tip1Go.on Events.Click, ->
 		layers.Guide3Tip1.animate
 			properties:
 				opacity: 0
 			time:0.2
+		layers.Guide3Tip1Overlay.animate
+			properties:
+				opacity: 0
+			time: 1.2
 		tour2()
 		
 
@@ -1098,12 +1111,20 @@ tour2 = ->
 			y: Guide3Tip2OriginY
 		curve:"spring(150,12,0)"
 		delay: 0.5
-			
+	layers.Guide3Tip2Overlay.animate
+		properties:
+			opacity: 1
+		curve:"ease"
+		delay: 0.5
 	layers.Guide3Tip2Go.on Events.Click, ->
 		layers.Guide3Tip2.animate
 			properties:
 				opacity: 0
 			time:0.2
+		layers.Guide3Tip2Overlay.animate
+			properties:
+				opacity: 0
+			time: 1.2			
 		tour3()
 
 
@@ -1118,12 +1139,20 @@ tour3 = ->
 			y: Guide3Tip3OriginY
 		curve:"spring(150,12,0)"
 		delay: 0.5
-		
+	layers.Guide3Tip3Overlay.animate
+		properties:
+			opacity: 1
+		curve:"ease"
+		delay: 0.5	
 	layers.Guide3Tip3Go.on Events.Click, ->
 		layers.Guide3Tip3.animate
 			properties:
 				opacity: 0
 			time:0.2
+		layers.Guide3Tip3Overlay.animate
+			properties:
+				opacity: 0
+			time: 1.2
 		tour4()
 
 tour4 = ->	
@@ -1137,13 +1166,22 @@ tour4 = ->
 			y: Guide3Tip4OriginY
 		curve:"spring(150,12,0)"
 		delay: 0.5
+	layers.Guide3Tip4Overlay.animate
+		properties:
+			opacity: 1
+		curve:"ease"
+		delay: 0.5
 		
 	layers.Guide3Tip4Go.on Events.Click, ->
 		layers.Guide3Tip4.animate
 			properties:
 				opacity: 0
 			time:0.2
-		tour5()
+		layers.Guide3Tip1Overlay.animate
+			properties:
+				opacity: 0
+			time: 1.2
+		tourExit3()
 
 tour5 = ->	
 	# Animate in the tip
@@ -1395,7 +1433,7 @@ tourFinish3 = ->
 
 
 # Initialize start screen
-startForm()
+startGuide3Intro()
 	
 
 

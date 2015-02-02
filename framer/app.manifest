@@ -1,5 +1,5 @@
 CACHE MANIFEST
-# 1422703814.094069
+# 1422847284.579748
 CACHE:
 /_server/server.js
 ../.DS_Store
@@ -7,7 +7,6 @@ CACHE:
 ../.temp.html
 ../app.coffee
 ../framer/.bowerrc
-../framer/.DS_Store
 ../framer/app (Chris Cacioppe's conflicted copy 2015-01-27).manifest
 ../framer/app.manifest
 ../framer/backup.coffee
@@ -35,6 +34,7 @@ CACHE:
 ../framer/style.css
 ../framer/version
 ../images/framer-icon.png
+../imported/.DS_Store
 ../imported/setupweb_JITLearn/images/Background-5426DFBE-707F-4F4C-9121-01BDB5C78263.png
 ../imported/setupweb_JITLearn/images/Background-597A8049-874C-4F24-B0EA-8A390C072051.png
 ../imported/setupweb_JITLearn/images/Background-BA8F3404-D2A9-4DD1-ACB1-81D3DE9377AE.png
@@ -53,6 +53,8 @@ CACHE:
 ../imported/setupweb_JITLearn/images/Bitmap-897E45FA-7DF7-4215-8129-FA59FE41D4BD.png
 ../imported/setupweb_JITLearn/images/Bitmap-8DE5C2FF-C857-4A0D-8DE1-2EA759AB1CDA.png
 ../imported/setupweb_JITLearn/images/Bitmap_3-2BF490C7-E761-48B1-8691-808636DA78A7.png
+../imported/setupweb_JITLearn/images/Bitmap_3-76E4EC13-6CFD-4430-B17A-985465C1C2F0.png
+../imported/setupweb_JITLearn/images/Bitmap_4-F03E33E4-2F02-488E-8FDF-C5FB943394EF.png
 ../imported/setupweb_JITLearn/images/BizName-FC455C7C-CEA1-40AE-870E-96C95E9EBC4C.png
 ../imported/setupweb_JITLearn/images/BizType-1046D3CE-A7D7-48FC-96D5-544A0F470867.png
 ../imported/setupweb_JITLearn/images/Cashflow-307B3C2B-ADFB-4106-AF08-2DF2B7E7360F.png
@@ -85,16 +87,19 @@ CACHE:
 ../imported/setupweb_JITLearn/images/Guide2Content-756C018D-1CB3-4912-B644-B3B4479E50E3.png
 ../imported/setupweb_JITLearn/images/Guide2Go-9D2F7F7E-6EB0-4B4D-BF78-B86350F0FD66.png
 ../imported/setupweb_JITLearn/images/Guide3Screen-5B056A1B-C4CC-40EA-AA0E-17F74D0D8C53.png
+../imported/setupweb_JITLearn/images/Guide3Screen2-48CEECDA-412A-446C-AA37-D1653305B12D.png
 ../imported/setupweb_JITLearn/images/Guide3Tip1BG-2EDBE9DC-2DFC-4DB9-A22C-DB1099235227.png
 ../imported/setupweb_JITLearn/images/Guide3Tip1Go-F0F849B3-D14D-4261-B574-50E37D240A5B.png
+../imported/setupweb_JITLearn/images/Guide3Tip1Overlay-C7CAD45F-106F-4891-B9B0-56EE2B719939.png
 ../imported/setupweb_JITLearn/images/Guide3Tip2BG-6138F237-DB10-4894-ACA5-8D99D9F01765.png
 ../imported/setupweb_JITLearn/images/Guide3Tip2Go-E92FC51C-510F-4915-8528-9CD812C46E2D.png
-../imported/setupweb_JITLearn/images/Guide3Tip3BG-403C4201-6A10-4913-93C6-E25CF69102B0.png
-../imported/setupweb_JITLearn/images/Guide3Tip3Go-7B67E5F9-0B1D-4DAD-BFD6-923A507746FA.png
+../imported/setupweb_JITLearn/images/Guide3Tip2Overlay-9E38E2AF-DDEE-4754-8764-969D16809AE3.png
+../imported/setupweb_JITLearn/images/Guide3Tip3Go-E523A6DA-C581-4236-AF8A-78CCBA25D9BA.png
+../imported/setupweb_JITLearn/images/Guide3Tip3Overlay-9001F404-8E1F-4425-9AFA-016D61C44705.png
+../imported/setupweb_JITLearn/images/Guide3Tip4BG-050CF40C-57BA-475E-B53D-D54AE24ECD5F.png
 ../imported/setupweb_JITLearn/images/Guide3Tip4BG-2FB9BC3F-5215-4DCA-9DAD-A34DAD1AF41C.png
-../imported/setupweb_JITLearn/images/Guide3Tip4Go-E523A6DA-C581-4236-AF8A-78CCBA25D9BA.png
-../imported/setupweb_JITLearn/images/Guide3Tip5BG-050CF40C-57BA-475E-B53D-D54AE24ECD5F.png
-../imported/setupweb_JITLearn/images/Guide3Tip5Go-BC9F7DC0-0CC8-47E8-A829-D88ECD7AB0E3.png
+../imported/setupweb_JITLearn/images/Guide3Tip4Go-BC9F7DC0-0CC8-47E8-A829-D88ECD7AB0E3.png
+../imported/setupweb_JITLearn/images/Guide3Tip4Overlay-2E034CC0-68D5-4A9E-9E71-3AB254A3B206.png
 ../imported/setupweb_JITLearn/images/Guide3TipOpenBG-C9050DF6-E1BC-4373-AE0D-FAC825D44669.png
 ../imported/setupweb_JITLearn/images/Guide3TipOpenGo-EEB3E84B-B780-462C-9724-9FE7E2D082E7.png
 ../imported/setupweb_JITLearn/images/GuideBG-9F2B6595-81BB-4CDA-AF37-A418D7921F0A.png
