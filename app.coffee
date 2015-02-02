@@ -680,6 +680,8 @@ setupDone = ->
 # –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
 layers.Dash.width = screenWidth
 layers.DashBG.height = screenHeight
+layers.DashBG.width = screenWidth
+layers.DashBG.centerX()
 layers.DashHeader.centerX()
 layers.DashHeader.pixelAlign()
 layers.Widgets.centerX()
@@ -691,6 +693,8 @@ startDash = ->
 	layers.SuccessTick.visible = false
 	layers.setup.visible = false
 	layers.Dash.visible = true
+	layers.Purchases.visible = false
+	layers.BankRec.visible = false
 
 	
 	layers.Dash.width = screenWidth
@@ -816,7 +820,574 @@ startDash = ->
 			time: 0.2
 
 
+	# Navlink box
+	NavLinkAccount = new Layer
+		width: 100
+		height: 30
+		backgroundColor: "transparent"
+		superLayer: layers.DashHeader
+		x: 460
+		y: 106
+	# 	Nav interaction
+	NavLinkAccount.on Events.MouseOver, ->
+		document.body.style.cursor = "pointer"
+	NavLinkAccount.on Events.MouseOut, ->
+		document.body.style.cursor = "auto"
+	NavLinkAccount.on Events.Click, ->
+		startPurchases()
+		
+		
+	
+	ReconcileBtn = new Layer
+		width: 129
+		height: 30
+		backgroundColor: "transparent"
+		superLayer: layers.DemoWidgets
+		x: 15
+		y: 230
+	
+	# 	Nav interaction
+	ReconcileBtn.on Events.MouseOver, ->
+		document.body.style.cursor = "pointer"
+		ReconcileBtn.backgroundColor = "white"
+		ReconcileBtn.opacity = 0.2
+		
+	ReconcileBtn.on Events.MouseOut, ->
+		document.body.style.cursor = "auto"
+		ReconcileBtn.backgroundColor = "transparent"
+		ReconcileBtn.opacity = 0
+	ReconcileBtn.on Events.Click, ->
+		startBankRec()
 
+
+
+
+
+# Start purchasesssssssssssesesesess billllls homie its ma billllss oh lawwwwdie
+# –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+
+layers.Purchases.width = screenWidth
+layers.PurchasesBG.height = screenHeight
+layers.PurchasesBG.width = screenWidth
+layers.PurchasesBG.centerX()
+layers.PurchasesHeader.centerX()
+layers.PurchasesHeader.pixelAlign()
+layers.PurchasesContent.centerX()
+layers.PurchasesContent.pixelAlign()
+
+
+startPurchases = ->
+	layers.Guide.visible = false
+	layers.Guide1Open.visible = false
+	layers.SuccessTick.visible = false
+	layers.setup.visible = false
+	layers.Dash.visible = false
+	layers.Purchases.visible = true
+	
+	NavLinkDash = new Layer
+		width: 100
+		height: 30
+		backgroundColor: "transparent"
+		superLayer: layers.PurchasesHeader
+		x: 360
+		y: 106
+	
+	
+# 	Nav interaction
+	NavLinkDash.on Events.MouseOver, ->
+		document.body.style.cursor = "pointer"
+	NavLinkDash.on Events.MouseOut, ->
+		document.body.style.cursor = "auto"
+	NavLinkDash.on Events.Click, ->
+		startDash()
+		
+	
+	
+		
+
+
+
+
+
+
+
+# Start bankrec yo self foool
+# –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+
+layers.BankRec.width = screenWidth
+layers.BankRecBG.height = screenHeight
+layers.BankRecBG.width = screenWidth
+layers.BankRecBG.centerX()
+layers.BankRecHeader.centerX()
+layers.BankRecHeader.pixelAlign()
+layers.BankRecContent.centerX()
+layers.BankRecContent.pixelAlign()
+
+
+startBankRec = ->
+	layers.Guide.visible = false
+	layers.Guide1Open.visible = false
+	layers.SuccessTick.visible = false
+	layers.setup.visible = false
+	layers.Dash.visible = false
+	layers.Purchases.visible = false
+	layers.BankRec.visible = true
+	layers.Guide3Open.visible = false
+	
+	NavLinkDash = new Layer
+		width: 100
+		height: 30
+		backgroundColor: "transparent"
+		superLayer: layers.BankRecHeader
+		x: 360
+		y: 106
+	
+	# 	Back to dash interaction
+	NavLinkDash.on Events.MouseOver, ->
+		document.body.style.cursor = "pointer"
+	NavLinkDash.on Events.MouseOut, ->
+		document.body.style.cursor = "auto"
+	NavLinkDash.on Events.Click, ->
+		startDash()
+	
+	# Launch the tourz!!!!!!!!!!!!!!!!!!!!!
+	layers.BankRecTourGo.on Events.MouseOver, ->
+		document.body.style.cursor = "pointer"
+	layers.BankRecTourGo.on Events.MouseOut, ->
+		document.body.style.cursor = "auto"
+	layers.BankRecTourGo.on Events.Click, ->
+		startGuide3Intro()
+
+
+	
+	
+		
+
+			
+# Guide3 Intro
+# –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+
+startGuide3Intro = ->	
+	layers.Guide1Open.visible = false
+	layers.Guide3Open.visible = true
+	layers.SuccessTick.visible = false
+	layers.Guide3Open.bringToFront()
+	layers.Guide3Open.height = screenHeight
+	layers.Guide3Open.width = screenWidth
+	layers.GuideBG3.width = screenWidth
+	layers.GuideBG3.height = screenHeight
+	
+
+
+	
+	layers.Guide3Header.centerX()
+	layers.Guide3Tour.center()
+	layers.Guide3Tour.pixelAlign()
+	
+	layers.Guide3Tip5.opacity = 0
+	layers.Guide3Tip4.opacity = 0
+	layers.Guide3Tip2.opacity = 0
+	layers.Guide3Tip3.opacity = 0
+	layers.Guide3Tip1.opacity = 0
+	layers.Guide3Content.scale = 0.8
+	layers.Guide3TipOpen.opacity = 0
+
+		
+	
+	layers.Guide3Content.animate
+		properties:
+			scale:1
+		curve:"spring(200,15,0)"
+		
+	layers.Guide.animate
+		properties:
+			opacity: 0
+		time:0.3
+
+
+	utils.delay 0.4, ->
+		startGuide3()
+
+
+
+
+			
+			
+# Guide3 Start
+# –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+
+	
+startGuide3 = ->	
+	layers.Form.visible = false
+	layers.Guide.visible = false
+	layers.Guide1Open.visible = true
+	layers.Guide1Content.opacity = 1
+	
+	layers.Guide3Open.height = screenHeight
+	layers.Guide3Open.width = screenWidth
+	layers.GuideBG1.width = screenWidth
+	layers.GuideBG1.height = screenHeight
+	
+	layers.Guide3Header.centerX()
+	layers.Guide3Tour.center()
+	layers.Guide3Tour.pixelAlign()
+	
+	layers.Guide3Tip2.opacity = 0
+	layers.Guide3Tip3.opacity = 0
+	layers.Guide3Tip4.opacity = 0
+	layers.Guide3Tip5.opacity = 0
+	
+	
+
+	# 	Close interaction
+	layers.Guide3Header.on Events.MouseOver, ->
+		document.body.style.cursor = "pointer"
+	layers.Guide3Header.on Events.MouseOut, ->
+		document.body.style.cursor = "auto"
+	
+	layers.Guide1Header.on Events.Click, ->
+		startGuidesIndex()
+
+
+	# Animate in the tip
+	Guide3TipOpenOriginY = layers.Guide3TipOpen.y
+	layers.Guide3TipOpen.y = Guide3TipOpenOriginY - 10
+	layers.Guide3TipOpen.animate
+		properties:
+			opacity: 1
+			y: Guide3TipOpenOriginY
+		curve:"spring(150,12,0)"
+		delay: 0.5
+		
+	layers.Guide3TipOpenGo.on Events.Click, ->
+		layers.Guide3TipOpen.animate
+			properties:
+				opacity: 0
+			time:0.2
+		tour3Start()
+
+# 	
+tour3Start = ->	
+	# Animate in the tip
+	layers.Guide3Tip1.opacity = 0
+	Guide3Tip1OriginY = layers.Guide3Tip1.y
+	layers.Guide3Tip1.y = Guide3Tip1OriginY - 10
+	layers.Guide3Tip1.animate
+		properties:
+			opacity: 1
+			y: Guide3Tip1OriginY
+		curve:"spring(150,12,0)"
+		delay: 0.5
+		
+	layers.Guide3Tip1Go.on Events.Click, ->
+		layers.Guide3Tip1.animate
+			properties:
+				opacity: 0
+			time:0.2
+		tour2()
+		
+
+tour2 = ->
+	# Animate in the tip
+	layers.Guide3Tip2.opacity = 0
+	Guide3Tip2OriginY = layers.Guide3Tip2.y
+	layers.Guide3Tip2.y = Guide3Tip2OriginY - 10
+	layers.Guide3Tip2.animate
+		properties:
+			opacity: 1
+			y: Guide3Tip2OriginY
+		curve:"spring(150,12,0)"
+		delay: 0.5
+			
+	layers.Guide3Tip2Go.on Events.Click, ->
+		layers.Guide3Tip2.animate
+			properties:
+				opacity: 0
+			time:0.2
+		tour3()
+
+
+tour3 = ->	
+	# Animate in the tip
+	layers.Guide3Tip3.opacity = 0
+	Guide3Tip3OriginY = layers.Guide3Tip3.y
+	layers.Guide3Tip3.y = Guide3Tip3OriginY - 10
+	layers.Guide3Tip3.animate
+		properties:
+			opacity: 1
+			y: Guide3Tip3OriginY
+		curve:"spring(150,12,0)"
+		delay: 0.5
+		
+	layers.Guide3Tip3Go.on Events.Click, ->
+		layers.Guide3Tip3.animate
+			properties:
+				opacity: 0
+			time:0.2
+		tour4()
+
+tour4 = ->	
+	# Animate in the tip
+	layers.Guide3Tip4.opacity = 0
+	Guide3Tip4OriginY = layers.Guide3Tip4.y
+	layers.Guide3Tip4.y = Guide3Tip4OriginY - 10
+	layers.Guide3Tip4.animate
+		properties:
+			opacity: 1
+			y: Guide3Tip4OriginY
+		curve:"spring(150,12,0)"
+		delay: 0.5
+		
+	layers.Guide3Tip4Go.on Events.Click, ->
+		layers.Guide3Tip4.animate
+			properties:
+				opacity: 0
+			time:0.2
+		tour5()
+
+tour5 = ->	
+	# Animate in the tip
+	layers.Guide3Tip5.opacity = 0
+	Guide3Tip5OriginY = layers.Guide3Tip5.y
+	layers.Guide3Tip5.y = Guide3Tip5OriginY - 10
+	layers.Guide3Tip5.animate
+		properties:
+			opacity: 1
+			y: Guide3Tip5OriginY
+		curve:"spring(150,12,0)"
+		delay: 0.5
+		
+	layers.Guide3Tip5Go.on Events.Click, ->
+		layers.Guide3Tip5.animate
+			properties:
+				opacity: 0
+			time:0.2
+		tourExit3()
+
+# Tour Exit
+# –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+
+tourExit3 = ->
+	layers.SuccessTick3.visible = false
+	
+	layers.Guide3Content.animate
+		properties:
+			opacity: 0
+		curve:"ease"
+		time: 0.2
+	
+	utils.delay 0.2, ->
+		tourFinish3()
+
+
+
+
+
+
+
+# Tour Finish Tick yay
+# –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+
+tourFinish3 = ->
+	layers.Form.visible = false
+	layers.Guide.visible = false
+	layers.Guide1Open.visible = false
+	layers.SuccessTick.visible = false
+	layers.setup.visible = false
+	layers.Dash.visible = false
+	layers.Purchases.visible = false
+	layers.BankRec.visible = false
+	layers.Guide3Open.visible = true
+	layers.SuccessTick3.visible = true
+
+
+	
+	layers.SuccessTick3.center()
+	
+	
+
+
+	spark1 = new Layer
+		width: 40
+		height: 10
+		rotation: 150
+		borderRadius: 20
+		backgroundColor: "white"
+		opacity: 0
+		superLayer: layers.TickBG3
+	spark1.center()
+	
+	spark1.animate
+		properties:
+			x: -150
+			y: 190
+			width: 40
+			opacity:1
+		curve:"ease"
+		time: 0.5
+	
+	spark1.animate
+		properties:
+			scale:0
+		curve:"ease"
+		time: 1
+
+	spark2 = new Layer
+		width: 40
+		height: 10
+		rotation: 60
+		borderRadius: 20
+		backgroundColor: "white"
+		opacity: 0
+		superLayer: layers.TickBG3
+	spark2.center()
+	
+	spark2.animate
+		properties:
+			x: -80
+			y: -70
+			width: 60
+			opacity:1
+		curve:"ease"
+		time: 0.5
+		delay:0.14
+	
+	spark2.animate
+		properties:
+			scale:0
+		curve:"ease"
+		time: 1
+
+	spark3 = new Layer
+		width: 40
+		height: 10
+		rotation: 60
+		borderRadius: 20
+		backgroundColor: "white"
+		opacity:0
+		superLayer: layers.TickBG3
+	spark3.center()
+	
+	spark3.animate
+		properties:
+			x: 190
+			y: 220
+			width: 60
+			opacity:1
+		curve:"ease"
+		time: 0.6
+		delay:0.16
+	
+	spark3.animate
+		properties:
+			scale:0
+		curve:"ease"
+		time: 1
+
+	spark4 = new Layer
+		width: 40
+		height: 10
+		rotation: -20
+		borderRadius: 20
+		backgroundColor: "white"
+		opacity:0
+		superLayer: layers.TickBG3
+	spark4.centerX()
+	spark4.centerY(-50)
+	
+	spark4.animate
+		properties:
+			x: 250
+			y: 15
+			width: 60
+			opacity:1
+		curve:"ease"
+		time: 0.5
+	
+	spark4.animate
+		properties:
+			scale:0
+		curve:"ease"
+		time: 1			
+	
+	layers.TickBG3.scale = 0
+	layers.TickBG3.animate
+		properties:
+			scale:1
+		curve:"spring(150,12,0)"
+	
+
+	layers.Checkmark13.scale = 0
+	layers.Checkmark13.animate
+		properties:
+			scale: 1
+		curve:"spring(450,12,0)"
+		delay:0.2
+
+
+	radial = new Layer	
+		borderRadius: 20
+		width: 120
+		height: 120
+		borderRadius: 100
+		superLayer: layers.TickBG3
+		backgroundColor: "white"
+	radial.centerY()
+	radial.centerX()
+	radial.scale = 0
+	radial.sendToBack()
+
+	
+	radialFill = new Layer	
+		borderRadius: 20
+		width: 100
+		height: 100
+		borderRadius: 300
+		superLayer: radial
+		backgroundColor: "#2CBCE2"
+	radialFill.center()
+
+	
+	radial.animate
+		properties:
+			scale:2
+		curve:"spring(100,0,10)"
+		
+	radialFill.animate
+		properties:
+			scale:1.2
+		curve:"spring(150,42,10)"
+		
+	radial.animate
+		properties:
+			opacity:0
+		time: 0.3
+
+	layers.TickText3.opacity = 0
+	layers.TickText3.animate
+		properties:
+			opacity: 1
+		curve:"ease"
+		time: 1
+		delay: 0.4
+	
+	layers.SuccessButtons3.opacity = 0
+	layers.SuccessButtons3.animate
+		properties:
+			opacity: 1
+		curve:"ease"
+		delay: 0.5
+		
+	
+	# 	Close interaction
+	layers.SuccessGo3.on Events.MouseOver, ->
+		document.body.style.cursor = "pointer"
+	layers.SuccessGo3.on Events.MouseOut, ->
+		document.body.style.cursor = "auto"
+	layers.SuccessGo3.on Events.Click, ->
+		utils.delay 0.3, ->
+			startBankRec()
+		
 
 
 
@@ -824,12 +1395,8 @@ startDash = ->
 
 
 # Initialize start screen
-
-
 startForm()
-
-
-
+	
 
 
 
